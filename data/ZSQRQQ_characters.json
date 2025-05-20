@@ -1,0 +1,136 @@
+{
+    "characters": [
+      {
+        "id": "yun_yun",
+        "name": "云韵",
+        "avatar": "assets/images/yunyun.jpg",
+        "description": "云韵，天蚕土豆所著玄幻大陆类玄幻小说《斗破苍穹》及其衍生作品中的角色，晋升斗宗后跻身十大强者排名第三，二星斗宗强者，云岚宗九代宗主，拥兰殿的主人。",
+        "videoUrl": "assets/videos/yunyun.mp4"
+      },
+      {
+        "id": "xiao_yan",
+        "name": "萧炎",
+        "avatar": "assets/images/xiaoyan.jpg",
+        "description": "萧炎，天蚕土豆所著小说《斗破苍穹》男主角，萧家少主，曾经是萧家族长的最佳人选，后来修为尽失，地位一落千丈。",
+        "videoUrl": "assets/videos/xiaoyan.mp4"
+      },
+      {
+        "id": "xiao_ding",
+        "name": "萧鼎",
+        "avatar": "assets/images/xiaoding.jpg",
+        "description": "萧鼎，《斗破苍穹》中的角色，萧炎的大哥，萧家少主之一，斗师修为。",
+        "videoUrl": "assets/videos/xiaoding.mp4"
+      },
+      {
+        "id": "xiao_xun",
+        "name": "萧薰儿",
+        "avatar": "assets/images/xiaoxuner.jpg",
+        "description": "萧薰儿，《斗破苍穹》中的重要女性角色，古族族长古元之女，拥有厄难毒体，与萧炎有婚约。",
+        "videoUrl": "assets/videos/xiaoxuner.mp4"
+      },
+      {
+        "id": "nalan_yanran",
+        "name": "纳兰嫣然",
+        "avatar": "assets/images/nalanyanran.jpg",
+        "description": "纳兰嫣然，《斗破苍穹》中的重要女性角色，纳兰家族的千金小姐，云岚宗少宗主，云韵的弟子。",
+        "videoUrl": "assets/videos/nalanyanran.mp4"
+      },
+      {
+        "id": "yao_lao",
+        "name": "药老",
+        "avatar": "assets/images/yaolao.jpg",
+        "description": "药老，本名韩枫，《斗破苍穹》中的重要角色，炼药师，萧炎的老师，曾经的斗尊强者。",
+        "videoUrl": "assets/videos/yaolao.mp4"
+      },
+      {
+        "id": "hai_bo_dong",
+        "name": "海波东",
+        "avatar": "assets/images/haibodong.jpg",
+        "description": "海波东，《斗破苍穹》中的角色，乌坦城冰皇，曾经的斗皇强者，后来被萧炎解除封印，成为萧炎的朋友。",
+        "videoUrl": "assets/videos/haibodong.mp4"
+      },
+      {
+        "id": "qing_lin",
+        "name": "青鳞",
+        "avatar": "assets/images/qinglin.jpg",
+        "description": "青鳞，《斗破苍穹》中的女性角色，蛇人族，拥有碧蛇三花瞳，后来成为萧炎的伙伴。",
+        "videoUrl": "assets/videos/qinglin.mp4"
+      },
+      {
+        "id": "xiao_li",
+        "name": "小医仙",
+        "avatar": "assets/images/xiaoyixian.jpg", 
+        "description": "小医仙，《斗破苍穹》中的女性角色，魔兽山脉中的医师，拥有厄难毒体，后来成为萧炎的伙伴之一。",
+        "videoUrl": "assets/videos/xiaoyixian.mp4"
+      },
+      {
+        "id": "mei_duo",
+        "name": "美杜莎",
+        "avatar": "assets/images/meidusha.jpg",
+        "description": "美杜莎女王，《斗破苍穹》中的重要女性角色，蛇人族女王，拥有七彩吞天蟒血脉，后来与萧炎有所交集。",
+        "videoUrl": "assets/videos/meidusha.mp4"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "yun_yun",
+        "target": "xiao_yan",
+        "type": "connected"
+      },
+      {
+        "source": "yun_yun",
+        "target": "nalan_yanran",
+        "type": "master_disciple"
+      },
+      {
+        "source": "xiao_yan",
+        "target": "xiao_ding",
+        "type": "family"
+      },
+      {
+        "source": "xiao_yan",
+        "target": "xiao_xun",
+        "type": "fiance"
+      },
+      {
+        "source": "xiao_yan",
+        "target": "yao_lao",
+        "type": "master_disciple"
+      },
+      {
+        "source": "xiao_yan",
+        "target": "nalan_yanran",
+        "type": "connected"
+      },
+      {
+        "source": "xiao_yan",
+        "target": "hai_bo_dong",
+        "type": "friend"
+      },
+      {
+        "source": "xiao_yan",
+        "target": "qing_lin",
+        "type": "friend"
+      },
+      {
+        "source": "xiao_yan",
+        "target": "xiao_li",
+        "type": "friend"
+      },
+      {
+        "source": "xiao_yan",
+        "target": "mei_duo",
+        "type": "connected"
+      },
+      {
+        "source": "nalan_yanran",
+        "target": "yun_yun",
+        "type": "master_disciple"
+      },
+      {
+        "source": "qing_lin",
+        "target": "mei_duo",
+        "type": "same_race"
+      }
+    ]
+  } 

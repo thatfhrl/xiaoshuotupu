@@ -1,0 +1,3043 @@
+{
+  "characters": [
+    {
+      "id": "fang_yu",
+      "name": "方羽",
+      "avatar": "assets/images/fangyu.png",
+      "description": "本作主角，五千年前就存活于世的人族修士，人族大统继承者。拥有强大至极的实力，几乎能轻松战胜所遇到的任何敌人，但修为始终停留在最底层的炼气期。炼气层数远高于普通修士，丹田犹如永远不会被填满的无底洞，这也造成了他体内的真气仿若无穷无尽。肉身十分强大，拥有碾压众生的绝对力量以及任何外部力量都难以侵入分毫的超级防御，在战斗中基本不会被破防，即使偶遇强敌导致受伤也能迅速恢复，并且身体复原后会变得更强。很多时候，方羽无需使用法术，仅凭肉身便能以压倒性优势战胜绝大多数敌人。通过一系列事件，方羽逐渐了解到历史的真相，为了挽救人族于危亡之境，方羽层层飞升，对抗仙界众神，担起带领人族跳出因果漩涡、重回巅峰的重任。 [2]",
+      "videoUrl": "assets/videos/fangyu.mp4"
+    },
+    {
+      "id": "lin_ba_tian",
+      "name": "林霸天",
+      "avatar": "assets/images/linbatian.png",
+      "description": "方羽的好友，与冷寻双亦是故交，玄门弟子，号“霸天圣尊”。两千年前渡劫飞升，飞升前在地球留下了一缕意志，两千年后与方羽相遇，后为救苏冷韵耗尽力量消散。本尊飞升后抵达大天辰星，创立羽化门，横压一世，却引来域上天佑大族的注意，在与假林霸天交战时被其以一道意志强行传送到大位面中的一处死兆之地。在虚渊界的死兆之地与方羽重逢，其一半的肉身与魂灵和死兆之地“绑定”无法脱身，方羽灭杀虚渊界的死兆意志后，林霸天与死兆之地融合。在蛮荒界以罗南深渊之主林五千的身份出现与方羽汇合，解决了从域上降临而来的危机，之后林霸天被死兆意志召回。后于仙界强者寻找人族传承时回到了地球，和方羽再度联手。自身和死兆之主的意识已融为一体，二者时常争夺主导权。",
+      "videoUrl": "assets/videos/linbatian.mp4"
+    },
+    {
+      "id": "leng_xun_shuang_/_ji_ru_mei",
+      "name": "冷寻双/姬如眉",
+      "avatar": "assets/images/jirumei.png",
+      "description": "方羽的故友兼道侣，沧澜门弟子。昔日和方羽、林霸天一起闯荡天下，经常光顾各大宗门的藏经阁，与方羽的关系尤为亲密。在方羽被关押期间为守护天道门而战死，两千多年后因不明原因以江南姬家养女姬如眉的形式存活于世。初登场时被杨家派出的杀手追杀，由方羽救下，之后多次得到其帮助，期间方羽发觉姬如眉与冷寻双的相似度越来越高，最终证实二者为同一人。因得缘灭花而飞升，斩断了与世间的一切尘缘与记忆。方羽抵达蛮荒界后多次于梦中回想起与她有关的经历，在前往西荒时恢复全部记忆，但未能寻找到她本人。后在仙界神命仙域晨日界以寻天岛岛主的身份与方羽重逢。对方羽的能力有着无比的信心，理解并接受寒妙依对方羽的感情，只希望方羽能多一分助力。",
+      "videoUrl": "assets/videos/lengxunshuang/jirumei.mp4"
+    },
+    {
+      "id": "han_miao_yi",
+      "name": "寒妙依",
+      "avatar": "assets/images/hanmiaoyi.png",
+      "description": "完美神魔体，轮天魔祖和原始神族结合所生的女儿。原名无心，曾造成了云陨大陆无数生灵的毁灭，引起位面法则出手将其抹掉意识封印。沉睡多年后躯体被元雨发现，重生为婴儿形态，由源氏王朝太师寒鼎天收养。修为突破到地仙境后元雨再次出现将她带走，被迫其觉醒了体质。先后受到元雨和知心阁阁主的操控与方羽对战，方羽将阁主的意识剥离并灭杀，把她解救了出来，之后寒妙依便跟随在方羽身边。具有神性和魔性两面，神性冷静睿智，称方羽为方兄，魔性俏皮活泼，称方羽为主人。后神性与魔性均对方羽产生爱慕情愫，经常为接近方羽的女人争风吃醋乃至大打出手。某次趁方羽睡觉时偷吻成功。抵达仙界后感应到血脉召唤，遂离开方羽寻找机缘，在轮天魔祖的指导下修炼，功法大成后与方羽再次相聚。",
+      "videoUrl": "assets/videos/hanmiaoyi.mp4"
+    },
+    {
+      "id": "shi_kong_shou",
+      "name": "噬空兽",
+      "avatar": "assets/images/shikongshou.png",
+      "description": "万域神兽，可吞噬万物，防御力极强，受到攻击会变大，理论上没有上限。曾承受方羽九成力道的一拳不死，但依然被方羽打服，缩小为巴掌大小黑毛蓝眼的宠物狗，跟随其左右。在方羽飞升大天辰星时因被位面法则送到死轮星而跟其失散，后通过掠空兽的传送在妖界出现与方羽汇合。原本极易失控进入狂暴状态，只有贝贝和如意青莲能让其恢复正常，后在方羽与烛九阴交手时变得能控制理智并主动恢复成幼犬形态。",
+      "videoUrl": "assets/videos/shikongshou.mp4"
+    },
+    {
+      "id": "lve_kong_shou",
+      "name": "掠空兽",
+      "avatar": "assets/images/lvekongshou.png",
+      "description": "万域神兽，本名贝贝，可以瞬间到达任何去过的地方。外表和噬空兽很像，为巴掌大小白毛红眼的宠物狗。在方羽成为大天辰星羽化门掌门时被方羽的气息所吸引，自己找上了方羽，跟随在其左右，后和方羽一起去了大位面和域上仙界，助力极大。懂得写字与人交流，在空兽一脉内的地位很高，被尊称为祖神，能让处于狂暴状态的噬空兽恢复正常。\n地球",
+      "videoUrl": "assets/videos/lvekongshou.mp4"
+    },
+    {
+      "id": "tang_xiao_rou",
+      "name": "唐小柔",
+      "avatar": "assets/images/tangxiaorou.png",
+      "description": "江南唐氏财团千金。本作开头她和父亲去寻找药神夏修之救治爷爷而认识方羽，为了求方羽出手而故意成为其同桌，多次受到方羽救助，被方羽吐槽为惹祸体质。后喜欢上了方羽，为了和方羽再次见面而成为一名修士，方羽从仙界返回地球时与其在紫雨林相遇，修为达合体期巅峰。曾给过方羽一个盒子，嘱咐其等到没人的时候再打开。",
+      "videoUrl": "assets/videos/tangxiaorou.mp4"
+    },
+    {
+      "id": "tang_ming_de",
+      "name": "唐明德",
+      "avatar": "assets/images/tangmingde.png",
+      "description": "江南唐家家主，唐小柔父亲。为寻找药神夏修之而认识方羽，对方羽敬重有加。",
+      "videoUrl": "assets/videos/tangmingde.mp4"
+    },
+    {
+      "id": "tang_feng",
+      "name": "唐枫",
+      "avatar": "assets/images/tangfeng.png",
+      "description": "唐明德长子，唐小柔兄长。寻找药神夏修之而认识方羽，后达到合体期初期修为。",
+      "videoUrl": "assets/videos/tangfeng.mp4"
+    },
+    {
+      "id": "ji_dong_shan",
+      "name": "姬东山",
+      "avatar": "assets/images/jidongshan.png",
+      "description": "江南姬家家主，姬如眉养父。方羽无意中救下姬如眉而感激方羽。",
+      "videoUrl": "assets/videos/jidongshan.mp4"
+    },
+    {
+      "id": "yang_yin_zhu",
+      "name": "杨音竹",
+      "avatar": "assets/images/yangyinzhu.png",
+      "description": "江南杨家之女。心如蛇蝎，因姬如媚与方羽交恶，一心想要除掉方羽。后攀附郑家想借郑家之手复仇，不料郑家被方羽强大的实力打服，自己反被郑家的四长老所杀，自食恶果。",
+      "videoUrl": "assets/videos/yangyinzhu.mp4"
+    },
+    {
+      "id": "gu_ru_long",
+      "name": "古如龙",
+      "avatar": "assets/images/gurulong.png",
+      "description": "江南的新晋宗师之尊。踏入结丹期后欲替弟子杨剑复仇而向方羽挑战，最后惨败而亡。",
+      "videoUrl": "assets/videos/gurulong.mp4"
+    },
+    {
+      "id": "qin_yi_mo",
+      "name": "秦以沫",
+      "avatar": "assets/images/qinyimo.png",
+      "description": "北都秦家千金，秦无道孙女，后成为秦家家主。方羽多次帮助其化险为夷，默默喜欢方羽却有缘无分。",
+      "videoUrl": "assets/videos/qinyimo.mp4"
+    },
+    {
+      "id": "qin_wu_dao",
+      "name": "秦无道",
+      "avatar": "assets/images/qinwudao.png",
+      "description": "方羽的故友，秦以沫跟秦朗的爷爷。吩咐秦以沫协助方羽，后寿终正寝，去世前把秦家家主的位置传给了秦以沫。",
+      "videoUrl": "assets/videos/qinwudao.mp4"
+    },
+    {
+      "id": "qin_lang",
+      "name": "秦朗",
+      "avatar": "assets/images/qinlang.png",
+      "description": "北都秦家，秦无道孙子，秦以沫弟弟。多次跟随方羽办事，为人忠诚。",
+      "videoUrl": "assets/videos/qinlang.mp4"
+    },
+    {
+      "id": "yu_yue_yue",
+      "name": "于玥玥",
+      "avatar": "assets/images/yuyueyue.png",
+      "description": "方羽在城中村的邻居。受到方羽的多次帮助，对方羽很有依赖感。后被乾元门收为弟子，达化神期修为。地球灵气复苏后加入乾元门，被师父逼迫用来试验残缺功法，由方羽救下，回到王艳身边。",
+      "videoUrl": "assets/videos/yuyueyue.mp4"
+    },
+    {
+      "id": "wang_yan",
+      "name": "王艳",
+      "avatar": "assets/images/wangyan.png",
+      "description": "于玥玥的母亲，方羽在城中村生活时的邻居。其做的饭菜很合方羽的口味。",
+      "videoUrl": "assets/videos/wangyan.mp4"
+    },
+    {
+      "id": "liu_pang_zi",
+      "name": "刘胖子",
+      "avatar": "assets/images/liupangzi.png",
+      "description": "本名刘栋，方羽在江海中学的同学和朋友。",
+      "videoUrl": "assets/videos/liupangzi.mp4"
+    },
+    {
+      "id": "li_bing_yan",
+      "name": "李炳岩",
+      "avatar": "assets/images/libingyan.png",
+      "description": "方羽在江海中学的同学和朋友，也是第一个称呼方羽为老大的人。",
+      "videoUrl": "assets/videos/libingyan.mp4"
+    },
+    {
+      "id": "ding_ran",
+      "name": "丁然",
+      "avatar": "assets/images/dingran.png",
+      "description": "方羽高中的英语老师。喜欢耍小聪明，因为在私事上不顺利在得知方羽实力后希望得到其帮助，多次被拒绝后怀恨在心，彻底黑化为不朽族的走狗，最后被方羽用地心之火杀死。",
+      "videoUrl": "assets/videos/dingran.mp4"
+    },
+    {
+      "id": "su_leng_yun",
+      "name": "苏冷韵",
+      "avatar": "assets/images/sulengyun.png",
+      "description": "霜寒宫宫主，柳怜沙的师父。方羽早年救下的小女孩，幼年时被方羽送入霜寒宫，对方羽有很强的信任和依赖，称呼其为“羽哥哥”。被方羽带到了大天辰星。外出历练时遭遇位面融合，被黑袍修士救下，送回大天辰星，并将本源残片交给方羽。",
+      "videoUrl": "assets/videos/sulengyun.mp4"
+    },
+    {
+      "id": "liu_lian_sha",
+      "name": "柳怜沙",
+      "avatar": "assets/images/liuliansha.png",
+      "description": "霜寒宫弟子，苏冷韵的徒弟。暗榜杀手排名第六十七名，外号红狐，擅长使用媚术，为人逐利心较重，没把多少心思放在修炼上，因此实力一般。曾经尝试暗杀方羽，结果失败被擒，被方羽在灵魂留下印记，不过也间接令方羽和苏冷韵重逢。",
+      "videoUrl": "assets/videos/liuliansha.mp4"
+    },
+    {
+      "id": "song_liu_ge",
+      "name": "宋柳歌",
+      "avatar": "assets/images/songliuge.png",
+      "description": "巫神教圣女。曾装扮学生故意接近方羽，接触过程中对巫神教的做法产生怀疑，认为方羽不是坏人。后被方羽所救，脱离巫神教。",
+      "videoUrl": "assets/videos/songliuge.mp4"
+    },
+    {
+      "id": "xia_xiao_ying",
+      "name": "夏晓莹",
+      "avatar": "assets/images/xiaxiaoying.png",
+      "description": "华夏情报组组长。多次帮助方羽收集情报，她与妹妹夏微雨、夏听荷合称夏家三姐妹，三人都极其漂亮。",
+      "videoUrl": "assets/videos/xiaxiaoying.mp4"
+    },
+    {
+      "id": "xiao_chen",
+      "name": "萧辰",
+      "avatar": "assets/images/xiaochen.png",
+      "description": "燕城保卫处守卫者，九州国榜第一名。幼年时得到紫炎宫传承，从此实力突飞猛进，创下了光辉无比的履历。在守卫者大比上遭遇对紫炎宫有刻骨铭心仇恨的方羽，被打得几乎废掉，魂灵被撕裂。后再次遇上乔装的方羽和林霸天，被轰杀。",
+      "videoUrl": "assets/videos/xiaochen.mp4"
+    },
+    {
+      "id": "jiang_dao",
+      "name": "江岛",
+      "avatar": "assets/images/jiangdao.png",
+      "description": "紫炎宫大师兄。当年方羽灭门紫炎宫时江岛一干人被太上长老弘阴使用秘法将灵魂保存了下来，千年后再遇方羽，欲利用圣器混沌珠向方羽复仇却依旧不是对手，被方羽含怒击杀。",
+      "videoUrl": "assets/videos/jiangdao.mp4"
+    },
+    {
+      "id": "chen_luo",
+      "name": "陈洛",
+      "avatar": "assets/images/chenluo.png",
+      "description": "相城武道世家陈家子弟，真实身份为重生者。上一世为化神期修士，陨落后重生至陈家因车祸死亡的少爷陈洛身上。计划利用重活一世的经历登上巅峰，突破至元婴期后本想立威，结果被方羽虐杀。",
+      "videoUrl": "assets/videos/chenluo.mp4"
+    },
+    {
+      "id": "dao_kong",
+      "name": "道空",
+      "avatar": "assets/images/daokong.png",
+      "description": "半灵族首领，自号上仙。曾进入过圣院，利用吞噬灵兽本源增长修为和寿命，根据自己对仙界的印象创造了半灵界。一度躲藏于幕后，通过控制他人在武道界搅动风雨，结果被方羽击败，重伤躲进圣院。后方羽进入圣院将其彻底击杀。",
+      "videoUrl": "assets/videos/daokong.mp4"
+    },
+    {
+      "id": "bu_xiu_wang",
+      "name": "不朽王",
+      "avatar": "assets/images/buxiuwang.png",
+      "description": "不朽族之王。沉眠于地底世界多年，苏醒后欲占领人类世界，却被方羽多次挫败其行动。后心脏借助地心之火复苏，信心满满地率领不朽族进攻地面，结果败于方羽之手，被天道剑劈成两半。",
+      "videoUrl": "assets/videos/buxiuwang.mp4"
+    },
+    {
+      "id": "bai_ran",
+      "name": "白然",
+      "avatar": "assets/images/bairan.png",
+      "description": "北都白家旁系子孙。曾遭易断流陷害而被囚禁二十年，被方羽救出，视方羽为恩人，成为了方羽的部下。后来跟苏长歌和林芷岚一同被方羽带到大天辰星。",
+      "videoUrl": "assets/videos/bairan.mp4"
+    },
+    {
+      "id": "jia_li_bo_shi",
+      "name": "加里博士",
+      "avatar": "assets/images/jialiboshi.png",
+      "description": "疯狂科学家，基因实验室的头目，外号怪物博士。自身不具备战斗力，但制造了众多高科技改造人。多次被方羽破坏计划，连最看重的红莲都因此脱离了控制。后与死灵族合作，轻松击败圣光团，却不料死灵王被方羽消灭，最终加里博士死于紫罗兰之手。",
+      "videoUrl": "assets/videos/jialiboshi.mp4"
+    },
+    {
+      "id": "hong_lian",
+      "name": "红莲",
+      "avatar": "assets/images/honglian.png",
+      "description": "凤族后裔，本体为青鸾，凰之本源传承者。由于本源传承而使得与方羽产生共鸣，对方羽有不一样的感受。性格比较要强，热衷于和强敌对战。后飞升大天辰星，遭大阳帝尊擒住欲吸收其神兽血脉，生死之际再一次被方羽解救，事后定居羽化门。",
+      "videoUrl": "assets/videos/honglian.mp4"
+    },
+    {
+      "id": "zi_luo_lan",
+      "name": "紫罗兰",
+      "avatar": "assets/images/ziluolan.png",
+      "description": "世界最大杀手组织创建者和领导者。因接受江南杨家雇佣而刺杀方羽，几经周折被方羽实力折服，后因其组织被天使教毁灭而求助方羽，成为了方羽的手下，入住北都101号大宅。后来被其力量来源紫之法石侵蚀意识，在方羽和言真大法师合力下拿出法石而保住性命。",
+      "videoUrl": "assets/videos/ziluolan.mp4"
+    },
+    {
+      "id": "ye_sheng_xue",
+      "name": "叶胜雪",
+      "avatar": "assets/images/yeshengxue.png",
+      "description": "南都叶家之女。家族经历了遭吞龙分身洗脑并迫害等一系列变故，被方羽所救。后跟随方羽至北都大宅并协助小风铃管理，为方羽服务。",
+      "videoUrl": "assets/videos/yeshengxue.mp4"
+    },
+    {
+      "id": "da_zhao_mo_shi_huang",
+      "name": "大照摩氏荒",
+      "avatar": "assets/images/dazhaomoshihuang.png",
+      "description": "上古吞龙末裔。对神龙一脉有着极深的仇恨，多年来寻找神龙本源而不得，遂冒充神龙驱使多个凡人家族为己办事，被方羽识破，寄宿于叶家祖祠的分身被消灭。后欲吞噬红莲的凰之本源，引出因凤之本源共鸣而赶来的方羽，一番激战后被方羽消灭。",
+      "videoUrl": "assets/videos/dazhaomoshihuang.mp4"
+    },
+    {
+      "id": "zhao_zi_nan",
+      "name": "赵紫南",
+      "avatar": "assets/images/zhaozinan.png",
+      "description": "淮北武道协会会长赵济道的孙女。性格害羞怕人，对哥哥赵轩和方羽的依赖感很强。被异族发现其体质特殊，是极为罕见的“容器”，遂一直被追拿，得方羽庇护入住北都101号大宅。体质觉醒后成为了天道剑（副剑）的容器。后被方羽带到大天辰星。",
+      "videoUrl": "assets/videos/zhaozinan.mp4"
+    },
+    {
+      "id": "zhao_xuan",
+      "name": "赵轩",
+      "avatar": "assets/images/zhaoxuan.png",
+      "description": "淮北武道协会会长之孙，赵紫南的兄长。他是赵家中唯一关心赵紫南的人，后来异族入侵时跟其他赵家的成员一起被异族杀害。",
+      "videoUrl": "assets/videos/zhaoxuan.mp4"
+    },
+    {
+      "id": "lin_zhi_lan",
+      "name": "林芷岚",
+      "avatar": "assets/images/linzhilan.png",
+      "description": "北都林家家主林正雄之女，林霸天后人。性格呆板专一，眼中只有剑法，且剑术天分惊人。得到方羽传授天道剑法，成为天道剑法的传人。后被方羽带到大天辰星。",
+      "videoUrl": "assets/videos/linzhilan.mp4"
+    },
+    {
+      "id": "qi_ruo_qing",
+      "name": "齐若晴",
+      "avatar": "assets/images/qiruoqing.png",
+      "description": "北都齐家家主齐鸿山之女。在极北之地被方羽所救，喜欢上了方羽。异族入侵地球时因齐家背叛各大世家，被家族所牵连并且被天隼族立下的血契反噬，后在方羽的帮助下解除血契保住性命，自愿留在北都大宅协助方羽管理大宅。",
+      "videoUrl": "assets/videos/qiruoqing.mp4"
+    },
+    {
+      "id": "ling_er",
+      "name": "灵儿",
+      "avatar": "assets/images/linger.png",
+      "description": "方羽在路上偶然遇见的小女孩。初次见面方羽就在她身上隐约感觉到莫名的熟悉感，而她对方羽也有这种感觉。后身体发生异变，血液和气息都朝着与方羽同化的方向改变，整个人宛如方羽的复制体一般。后揭示灵儿的真实身份为圣院使用方羽的血脉孕育出来的灵婴，并通过红尘果复制了方羽的能力。",
+      "videoUrl": "assets/videos/linger.mp4"
+    },
+    {
+      "id": "huai_xu",
+      "name": "怀虚",
+      "avatar": "assets/images/huaixu.png",
+      "description": "方羽的好友，北都武道协会创建人，圣榜第三强者。多年前接受过方羽的指导，初登场有合体期修为，后突破至渡劫期巅峰（所谓半步仙人）并成功飞升，成为地球灵气复苏后第一个飞升的人。升上大天辰星后再次出场时为归一境中期修为，遭到万道阁囚禁拷问，被方羽救出。方羽飞升大位面前委托他暂代羽化门掌门之位。",
+      "videoUrl": "assets/videos/huaixu.mp4"
+    },
+    {
+      "id": "zheng_ze",
+      "name": "郑泽",
+      "avatar": "assets/images/zhengze.png",
+      "description": "怀虚的徒弟，北都武道协会副会长。对怀虚极为忠诚，多次见识过方羽的本事后对其心悦诚服。",
+      "videoUrl": "assets/videos/zhengze.mp4"
+    },
+    {
+      "id": "ou_yang_xiu_yuan",
+      "name": "欧阳修远",
+      "avatar": "assets/images/ouyangxiuyuan.png",
+      "description": "怀虚的旧友。当年和怀虚同时被方羽指导，为了家族利益站在了方羽的对立面，勾结半灵族犯下累累罪行，最后受到方羽惩罚被废除修为。",
+      "videoUrl": "assets/videos/ouyangxiuyuan.mp4"
+    },
+    {
+      "id": "yan_zhen",
+      "name": "言真",
+      "avatar": "assets/images/yanzhen.png",
+      "description": "秩序者组织首领，九星大法师。因徒弟天辰大法师被半灵族控制而出手，选择和方羽合作。曾为方羽占卜，看到了不得了的东西。",
+      "videoUrl": "assets/videos/yanzhen.mp4"
+    },
+    {
+      "id": "su_zhang_ge",
+      "name": "苏长歌",
+      "avatar": "assets/images/suzhangge.png",
+      "description": "影门弟子，自诩方羽的头号跟班。因师父和师妹被奸人所害，欲借助方羽的力量报仇刻意接近方羽，称方羽为老大。表面上看擅长溜须拍马，实则重情重义。后大仇得报，对方羽感激涕零。后来被方羽带到了大天辰星。",
+      "videoUrl": "assets/videos/suzhangge.mp4"
+    },
+    {
+      "id": "yuan_san_quan",
+      "name": "袁三泉",
+      "avatar": "assets/images/yuansanquan.png",
+      "description": "斩龙阁长老，圣榜第一强者。为还方羽救下徒弟的人情，和怀虚联手抵挡灭灵。在异族的进攻下受到重创，实力大损，后恢复。",
+      "videoUrl": "assets/videos/yuansanquan.mp4"
+    },
+    {
+      "id": "mu_rong_jian",
+      "name": "慕容剑",
+      "avatar": "assets/images/murongjian.png",
+      "description": "袁三泉的徒弟，曾经的天榜第一强者。在宗门大会被方羽救下，为报恩听命于方羽。",
+      "videoUrl": "assets/videos/murongjian.mp4"
+    },
+    {
+      "id": "luo_xi",
+      "name": "洛希",
+      "avatar": "assets/images/luoxi.png",
+      "description": "南都洛家之女。身材火辣，妖艳绝伦，天生尤物。在酒吧认识方羽，曾占卜爱情，发现方羽是她的真命天子，从而追求方羽，但没有成功。",
+      "videoUrl": "assets/videos/luoxi.mp4"
+    },
+    {
+      "id": "qin_yao",
+      "name": "琴瑶",
+      "avatar": "assets/images/qinyao.png",
+      "description": "在上古遗址冰棺沉睡多年的修仙者。曾扮演沙神寺神女并被元家利用骗财，被方羽救出后成为老龟的弟子，跟其学习医术。后在方羽的101号大宅的疗养院负责为受伤的修士疗伤。",
+      "videoUrl": "assets/videos/qinyao.mp4"
+    },
+    {
+      "id": "lao_gui",
+      "name": "老龟",
+      "avatar": "assets/images/laogui.png",
+      "description": "方羽的旧友，一只生活在独立空间的千年灵龟。医术造诣高超，被方羽委托照顾和治疗灵儿，后收琴瑶为徒。",
+      "videoUrl": "assets/videos/laogui.mp4"
+    },
+    {
+      "id": "bai_kong_gu",
+      "name": "白空谷",
+      "avatar": "assets/images/baikonggu.png",
+      "description": "窥天局的局长。对神隐会的做法不满，暗中帮助方羽，后在异族入侵时被无尘子占据身体且被撕碎灵魂而亡。",
+      "videoUrl": "assets/videos/baikonggu.mp4"
+    },
+    {
+      "id": "rao_dong_hai",
+      "name": "饶东海",
+      "avatar": "assets/images/raodonghai.png",
+      "description": "窥天局成员之一，白空谷的得力助手。被无尘子弟子伏寒杀死。",
+      "videoUrl": "assets/videos/raodonghai.mp4"
+    },
+    {
+      "id": "da_wei",
+      "name": "大魏",
+      "avatar": "assets/images/dawei.png",
+      "description": "窥天局成员之一，白空谷的得力助手。在白空谷失踪期间暂代局长一职，后在异族入侵时被天隼族的黑将斩杀。",
+      "videoUrl": "assets/videos/dawei.mp4"
+    },
+    {
+      "id": "wu_chen_zi",
+      "name": "无尘子",
+      "avatar": "assets/images/wuchenzi.png",
+      "description": "神隐会核心成员。曾两次进入圣院，隐藏幕后搅动风云。觊觎姜道人的极寒之泪，结果被方羽将计就计干掉一条命，靠占据白空谷身躯存活。异族溃败后再次亡于方羽之手。",
+      "videoUrl": "assets/videos/wuchenzi.mp4"
+    },
+    {
+      "id": "cang_yu",
+      "name": "苍玉",
+      "avatar": "assets/images/cangyu.png",
+      "description": "异族神海王朝的王子之一。性格懦弱怕事，曾因被方羽抢夺圣果与其交手却惨败，后被方羽留下灵魂印记作为要挟跟方羽里应外合瓦解神海王朝，最后返回自己的领地，成为神海王朝中最后存活下来的异族，同时也是地球上唯一幸存的异族。\n大天辰星",
+      "videoUrl": "assets/videos/cangyu.mp4"
+    },
+    {
+      "id": "tian_ji_dao_ren",
+      "name": "天机道人",
+      "avatar": "assets/images/tianjidaoren.png",
+      "description": "在异族入侵地球时出现在方羽面前，真实身份是大天辰星的三通玄门的二长老。受三通玄门门主指示接近方羽以抢夺地球源晶却被方羽识破计谋，最后被方羽要胁利用传送石到大天辰星。在前往大天辰星过程中跟方羽一同被地球位面法则送到死轮星，但被方羽救出，对小溪儿疼爱有加，回到三通玄门后被陈乾安杀死，尸体被方羽用生命之力复原，并用如意青莲的真气保存，等待方羽领悟生命法则后将其复活。",
+      "videoUrl": "assets/videos/tianjidaoren.mp4"
+    },
+    {
+      "id": "xiao_xi_er",
+      "name": "小溪儿",
+      "avatar": "assets/images/xiaoxier.png",
+      "description": "三通玄门弟子，本为孤儿，被天机道人在一条小溪旁捡到，因此取名小溪儿。性格天真活泼，在三通玄门被灭门后被方羽带走，并成为羽化门的弟子。",
+      "videoUrl": "assets/videos/xiaoxier.mp4"
+    },
+    {
+      "id": "chen_qian_an",
+      "name": "陈乾安",
+      "avatar": "assets/images/chenqianan.png",
+      "description": "方羽在死轮星遇到的六级囚犯，真实身份是大位面云陨大陆知心阁成员。为人阴险狡诈、心狠手辣，被知心阁阁主安排到大天辰星执行任务，在方羽跟天机道人回到三通玄门后，趁方羽带小溪儿外出之际把三通玄门灭门，并拿走了生死簿。后在云陨大陆的人族据点被方羽活捉折磨，困于天道门的地牢内，由洪耀祖看守，最后跟纪万古一同被处决，死于方羽的天穹圣戟之下。",
+      "videoUrl": "assets/videos/chenqianan.mp4"
+    },
+    {
+      "id": "mu_qing_ran",
+      "name": "牧轻然",
+      "avatar": "assets/images/muqingran.png",
+      "description": "瑶池圣女。受瑶池太上长老嘱托协助方羽，曾在方羽的帮助下前往八封神宗退婚，后协助方羽照顾管理羽化门。",
+      "videoUrl": "assets/videos/muqingran.mp4"
+    },
+    {
+      "id": "xiang_tian_he",
+      "name": "项天合",
+      "avatar": "assets/images/xiangtianhe.png",
+      "description": "大天辰星南疆界域永恒皇朝的皇帝。和方羽交好，方羽称其老项。感受到一级宗门天宫对永恒皇朝的觊觎，以无垢之心为报酬，委托方羽除掉身为天宫圣子的太子。",
+      "videoUrl": "assets/videos/xiangtianhe.mp4"
+    },
+    {
+      "id": "lv_hai_hai_ling",
+      "name": "绿海海灵",
+      "avatar": "assets/images/lvhaihailing.png",
+      "description": "羽化门所在之地绿海海域的海灵。虽然是海灵但外形却是一只兔子。跟林霸天、道天认识，带方羽领悟了乾坤塔。",
+      "videoUrl": "assets/videos/lvhaihailing.mp4"
+    },
+    {
+      "id": "xu_jia_lu",
+      "name": "徐嘉路",
+      "avatar": "assets/images/xujialu.png",
+      "description": "大天辰星天龙城城主徐天龙之子，外号常胜公子。在方羽一行人于天珑城招募羽化门弟子时认识方羽，为了追求牧轻然而加入羽化门，跟苏长歌一样话痨和擅长拍马屁。",
+      "videoUrl": "assets/videos/xujialu.mp4"
+    },
+    {
+      "id": "shu_meng",
+      "name": "姝梦",
+      "avatar": "assets/images/shumeng.png",
+      "description": "紫林女帝，大天辰星紫林界域界尊。对方羽的强大极其仰慕，第一次与方羽见面即各种魅惑勾引，企图与其结合诞下足够强大的后代接管紫林界域，但随时间的推移意识到自己与方羽之间的巨大差距以及方羽对自己的冷漠态度，只能不了了之。",
+      "videoUrl": "assets/videos/shumeng.mp4"
+    },
+    {
+      "id": "hua_yan",
+      "name": "花颜",
+      "avatar": "assets/images/huayan.png",
+      "description": "无尽领域主人之一，万道始魔子嗣。因为千年前林霸天化名林毛假扮方羽与她姐弟相称而对方羽另眼相看，多次为其提供帮助。对方羽怀有爱慕之情，得知林毛不是方羽后卸下了心理负担。后飞升云陨大陆，被万道始魔掳至仙界，方羽将其救出。因感到自身实力不足，主动回到万道始魔身边，希望提升实力并化解他和方羽的仇恨。初代魔族复苏后，花颜彻底离开万道始魔，加入人族阵营。",
+      "videoUrl": "assets/videos/huayan.mp4"
+    },
+    {
+      "id": "hua_zhi",
+      "name": "花枝",
+      "avatar": "assets/images/huazhi.png",
+      "description": "无尽领域主人之一，万道始魔子嗣。花颜的同胎姐姐，长相身材跟花颜完全一样，能互相感应到对方的心思，而且一旦一人死去，另一人也无法存活。性格阴险毒辣，设计陷害洪天辰和方羽，无尽领域毁灭后被方羽夺走力量并活捉困在羽化门地底牢狱中。后被万道始魔掳至仙界。万道始魔被原始神族抓走后，经花颜求情，方羽将花枝一并带走。",
+      "videoUrl": "assets/videos/huazhi.mp4"
+    },
+    {
+      "id": "chen_ye",
+      "name": "尘烨",
+      "avatar": "assets/images/chenye.png",
+      "description": "羽化门坚守到最后的唯一一名弟子，林寻羽的徒弟。多年来见证了羽化门从兴盛到衰亡的过程，对敌对势力有着刻骨铭心的仇恨，在方羽成为羽化门掌门后尽全力辅佐。为了复仇暗中交易了因果之力，后受到至圣阁天武大圣的笛声影响，引发因果反噬，事后被方羽以极寒之意冰封，等待未来解救。",
+      "videoUrl": "assets/videos/chenye.mp4"
+    },
+    {
+      "id": "ye_ge",
+      "name": "夜歌",
+      "avatar": "assets/images/yege.png",
+      "description": "大天辰星人族三大界尊之一，南域至尊。在羽化门复兴后主动和方羽接触，希望其能与自己联手复兴人族。方羽被调虎离山前往地球时，夜歌独自杀死了袭击羽化门的上殿五圣，引发自身因果反噬，弥留之际向方羽透露了自己是林霸天之子林寻羽的事实，之后被方羽以极寒之意封印，等待未来解救。",
+      "videoUrl": "assets/videos/yege.mp4"
+    },
+    {
+      "id": "zhao_cheng_feng",
+      "name": "赵乘风",
+      "avatar": "assets/images/zhaochengfeng.png",
+      "description": "大天辰星初代人王。曾带领大天辰星的人族走向极盛时代，临走前留下人王传承，被数十万年后方羽得到其雕像的力量以及象征人王的仙灵衣，使方羽成为大天辰星二代人王。在蛮荒界与方羽相见，与之共同对付天环神殿，将问星帝印交给方羽后遭到因果反噬，被方羽以极寒之意暂时保住性命，等待未来解救。",
+      "videoUrl": "assets/videos/zhaochengfeng.mp4"
+    },
+    {
+      "id": "hong_tian_chen",
+      "name": "洪天辰",
+      "avatar": "assets/images/hongtianchen.png",
+      "description": "大天辰星星祖，天穹圣戟的第八任主人。从地球飞升之后，默默守护大天辰星人族数十万年，见证了人族的兴起和衰落。在无尽领域的战斗中表现出灭星之势引起了未知领域的注意，天降黑光使得他经脉受损，最后把人族的希望寄托在了方羽的身上，将大天辰星的源力传给了方羽，自己油尽灯枯衰老而亡。 [4]\n虚渊界",
+      "videoUrl": "assets/videos/hongtianchen.mp4"
+    },
+    {
+      "id": "tong_wu_shuang",
+      "name": "童无双",
+      "avatar": "assets/images/tongwushuang.png",
+      "description": "虚渊界星烁联盟盟主，原名童无霜。身为女人，是个蕾丝边，喜欢同为女人的下属墨倾寒。见识过方羽无可比拟的强大实力后被“掰直”，转而对方羽芳心暗许。临别前送给方羽一件极其强大的武器——白玉神剑。位面融合后，遵从方羽的指示，带领虚渊界人族转移至大天辰星。",
+      "videoUrl": "assets/videos/tongwushuang.mp4"
+    },
+    {
+      "id": "mo_qing_han",
+      "name": "墨倾寒",
+      "avatar": "assets/images/moqinghan.png",
+      "description": "虚渊界星烁联盟二号人物，林霸天的道侣。在外界是令虚渊界无数人胆寒的星烁联盟二当家，但在林霸天身边却是全身心都扑在他身上的小女人。为了爱人的吩咐甘愿充当联系人，达成了方羽和童无双的会面。转移至大天辰星后向方羽询问了林霸天的状况，暂时未得相见。",
+      "videoUrl": "assets/videos/moqinghan.mp4"
+    },
+    {
+      "id": "sheng_tian",
+      "name": "圣天",
+      "avatar": "assets/images/shengtian.png",
+      "description": "虚渊界开山联盟盟主。受死兆之地的浓郁灵气诱惑，躲在死兆之地内修炼，甚至愿意放弃开山联盟。原本欲杀方羽而后快，但在见识到方羽的实力后选择退缩，后死兆之地被方羽击穿导致灵气流失，于是再次出手，结果被方羽用漫天离火焚烧殆尽，身死道消。",
+      "videoUrl": "assets/videos/shengtian.mp4"
+    },
+    {
+      "id": "xuan_wang",
+      "name": "玄王",
+      "avatar": "assets/images/xuanwang.png",
+      "description": "虚渊界初玄联盟盟主。受死兆之地的浓郁灵气诱惑，躲在死兆之地内修炼，甚至愿意放弃初玄联盟。原本不在意方羽的存在，后死兆之地被方羽击穿导致灵气流失，觉得忍无可忍，遂选择杀死方羽，结果被方羽用极寒之意冰冻，身躯粉碎毙命。\n云陨大陆",
+      "videoUrl": "assets/videos/xuanwang.mp4"
+    },
+    {
+      "id": "si_nan_xin",
+      "name": "司南心",
+      "avatar": "assets/images/sinanxin.png",
+      "description": "云陨大陆源氏王朝大通古城司南家族二小姐。性格极度刁蛮任性且心肠歹毒，视人族性命为草芥，妄图将身为人族的方羽玩弄于股掌之中，结果导致整个司南家族被方羽尽灭，自己则被臣服于方羽的少城主仲皇道杀死。",
+      "videoUrl": "assets/videos/sinanxin.mp4"
+    },
+    {
+      "id": "han_ding_tian",
+      "name": "寒鼎天",
+      "avatar": "assets/images/handingtian.png",
+      "description": "云陨大陆源氏王朝太师。善于隐忍，心机深沉。受元雨所托抚养寒妙依长大，而对方则答应协助他谋夺源氏王朝王位。原本计划一切顺利，却因紫焰的出现引起方羽出手，导致败亡。",
+      "videoUrl": "assets/videos/handingtian.mp4"
+    },
+    {
+      "id": "yuan_shi_zhi_zun",
+      "name": "元始至尊",
+      "avatar": "assets/images/yuanshizhizun.png",
+      "description": "十万年前的人族至尊，云陨大陆人族的最高掌权者。带领人族崛起，但却遭到神魔二族的联手打压，于天道山率领三百门生对抗神魔二族，在被门生背叛受到重创后与纪万古交手，自爆而死。多年后意志体将自己的传承交给了方羽。",
+      "videoUrl": "assets/videos/yuanshizhizun.mp4"
+    },
+    {
+      "id": "xiao_qiu",
+      "name": "小球",
+      "avatar": "assets/images/xiaoqiu.png",
+      "description": "方羽在假的元始古城遇到的小女孩，元始至尊的徒弟。本名元灵，真实身份为元始至尊以自身仙力孕育而成的灵婴，她是打开元始至尊传承的钥匙。",
+      "videoUrl": "assets/videos/xiaoqiu.mp4"
+    },
+    {
+      "id": "gu_long",
+      "name": "鼓龙",
+      "avatar": "assets/images/gulong.png",
+      "description": "烛龙之子，浑身赤红的巨大龙类。实力远超一般天仙，与其父烛九阴一样极其仇视神龙一脉。曾偶然间发现老神龙的尸体并将其石化守在附近，妄图吞噬方羽体内的神龙本源，被盛怒下的方羽轻松斩杀，其本源被神龙本源的虚影吞噬并促使方羽的境界来到了炼气期九万三千层。",
+      "videoUrl": "assets/videos/gulong.mp4"
+    },
+    {
+      "id": "zhi_xi",
+      "name": "芷溪",
+      "avatar": "assets/images/zhixi.png",
+      "description": "神族附属族群天煞族二品宗门焚宫的圣女。亲眼目睹方羽轻松团灭十二道极强的人族大能怨灵后产生了结交的心思。起初想要夺取方羽身上所谓的神族秘法，之后再次见识到方羽随意打爆天仙的恐怖实力后真心与之交好。在方羽和神族决裂后选择站在方羽一边，为方羽出谋划策，兼职泡茶。",
+      "videoUrl": "assets/videos/zhixi.mp4"
+    },
+    {
+      "id": "hong_yao_zu",
+      "name": "洪耀祖",
+      "avatar": "assets/images/hongyaozu.png",
+      "description": "云陨大陆天煞族洪家家主洪宝龙之子。在天福行拍卖会竞投神纹叶时认识方羽，开始因为见识过方羽一人毁灭天煞府的可怕力量而想要逃跑，但最后被方羽用血契控制，成为方羽的左右手，称呼方羽为大哥。家族财力富可敌国，因此花钱毫不手软，可以凭着财力打探到不少有用的情报。",
+      "videoUrl": "assets/videos/hongyaozu.mp4"
+    },
+    {
+      "id": "fei_qi",
+      "name": "费启",
+      "avatar": "assets/images/feiqi.png",
+      "description": "从地球来到云陨大陆的飞升者，在地球时的名号为“上玄天尊”。飞升前在地球留下的意志被巫神教当成巫神膜拜，与方羽有过交手。后在云陨大陆遇见方羽，但此时已落魄不堪，成为奴隶。被方羽救出后协助管理新生天道门，受方羽影响获得激励，决定重新振作。",
+      "videoUrl": "assets/videos/feiqi.mp4"
+    },
+    {
+      "id": "wang_fan",
+      "name": "王凡",
+      "avatar": "assets/images/wangfan.png",
+      "description": "元始至尊的门生之一。十万年前人族与神魔大战中的幸存者，多年来计划着令人族再次复兴，掌握万千神影之术。神魔二族被击败之后，王凡受方羽所托管理新的天道门，带领云陨大陆人族走上复兴之路。位面融合后，在方羽的指示下率领云陨大陆人族转移至大天辰星。",
+      "videoUrl": "assets/videos/wangfan.mp4"
+    },
+    {
+      "id": "yuan_yu",
+      "name": "元雨",
+      "avatar": "assets/images/yuanyu.png",
+      "description": "本为元始至尊的门生之一。后来背叛元始至尊，令元始古城被毁。曾短时间内掌控神魔体，但最后被知心阁阁主毁灭灵魂而亡。",
+      "videoUrl": "assets/videos/yuanyu.mp4"
+    },
+    {
+      "id": "ye_mo",
+      "name": "叶莫",
+      "avatar": "assets/images/yemo.png",
+      "description": "神族派去和魔族讲和的使者。被方羽使计借用其身份挑拨神魔两族开战，死于愤怒的魔族之手。",
+      "videoUrl": "assets/videos/yemo.mp4"
+    },
+    {
+      "id": "lin_lang_sheng_mu",
+      "name": "琳琅圣母",
+      "avatar": "assets/images/linlangshengmu.png",
+      "description": "神族高层掌权者之一。曾派叶莫出使魔族，叶莫的死使其十分愤怒并计划与魔族开战，被方羽一拳打死。",
+      "videoUrl": "assets/videos/linlangshengmu.mp4"
+    },
+    {
+      "id": "ji_wan_gu",
+      "name": "纪万古",
+      "avatar": "assets/images/jiwangu.png",
+      "description": "神族神主，云陨大陆神族的最高掌权者。十万年前率领神族与元始至尊交战，胜利后不遗余力地迫害人族和魔族。先后掌握了云陨大陆一半和全部的法则，但面对方羽依旧毫无还手之力，最后被王凡当众处决。",
+      "videoUrl": "assets/videos/jiwangu.mp4"
+    },
+    {
+      "id": "chi_xuan_（_chi_xing_）",
+      "name": "赤玄（赤刑）",
+      "avatar": "assets/images/chixuan.png",
+      "description": "魔族魔帝，云陨大陆魔族的最高掌权者。掌握生死造化之术，当年赤玄被纪万古胁迫自杀后以生死造化之术在后代赤刑身上重生。见识过方羽的恐怖实力后选择臣服于方羽和人族。",
+      "videoUrl": "assets/videos/chixuan（chixing）.mp4"
+    },
+    {
+      "id": "zhi_xin_ge_ge_zhu",
+      "name": "知心阁阁主",
+      "avatar": "assets/images/zhixingegezhu.png",
+      "description": "复苏神魔体的幕后黑手。十万年前被圣院安排在云陨大陆夺取神魔体，而后占据神魔体与方羽交手被暴打，被方羽将意识逼出神魔体，之后欲用生死簿抹杀方羽，却被生死簿反噬而死。\n妖界",
+      "videoUrl": "assets/videos/zhixingegezhu.mp4"
+    },
+    {
+      "id": "qi_nuo_jun_zhu",
+      "name": "琪诺郡主",
+      "avatar": "assets/images/qinuojunzhu.png",
+      "description": "古妖皇的嫡系后代。因容貌过于突出不想总被关注所以一直戴着面纱，与方羽达成交易，答应带方羽进入中央皇庭，但方羽需帮其夺得天火圣兽的蛋。之后被方羽的实力折服，对方羽毕恭毕敬。最后手持方羽借予的天道剑震慑全部四大星系成为妖界新的统治者、方羽在妖界的代言人。对方羽心生爱慕并发誓努力修炼提升自己，希望跟上方羽的脚步。",
+      "videoUrl": "assets/videos/qinuojunzhu.mp4"
+    },
+    {
+      "id": "gu_yao_huang",
+      "name": "古妖皇",
+      "avatar": "assets/images/guyaohuang.png",
+      "description": "古妖星系的掌权者。给予方羽特使的权力调查皇族内部被圣院同化的情况，实际自己早已暗中投靠圣院，在圣王安然的帮助下得到妖帝传承进阶天元玄仙，最后被铜片内放出的妖帝夺舍而死。",
+      "videoUrl": "assets/videos/guyaohuang.mp4"
+    },
+    {
+      "id": "xiao_yue_huang_hou",
+      "name": "霄月皇后",
+      "avatar": "assets/images/xiaoyuehuanghou.png",
+      "description": "古妖皇的道侣。因古妖皇打压自己所在的副系皇族而投靠圣院，进而与方羽为敌，被方羽一记万道十字拳碾碎，但因拥有圣院赐予的死魂丹而保住了性命。在古妖皇死后第二次出现欲向方羽复仇，依旧被方羽一拳秒杀。",
+      "videoUrl": "assets/videos/xiaoyuehuanghou.mp4"
+    },
+    {
+      "id": "gui_zhe_xian",
+      "name": "鬼谪仙",
+      "avatar": "assets/images/guizhexian.png",
+      "description": "传说中的可怕存在，据称为最高位面的顶级种族培养的未来仙王。为得到封神榜杀死母亲和兄弟姐妹，被流放至低位面，堕入鬼道，变得半生半死，其存在违反了天道与生命法则，浑身布满恐怖的因果反噬之力。被圣王安然用计在北巨星放出，与方羽、寒妙依等人为敌，实际战力远逊于方羽和星辰吞噬者，但凭借不死之身使得他相当难缠。",
+      "videoUrl": "assets/videos/guizhexian.mp4"
+    },
+    {
+      "id": "xun_zun",
+      "name": "巡尊",
+      "avatar": "assets/images/xunzun.png",
+      "description": "圣院的尊级强者。最初被派遣执行诱导方羽解开铜片的任务，后被圣王安然顶替。在安然利用林道尘威胁方羽成功后被方羽攻击安然的拳劲震死。",
+      "videoUrl": "assets/videos/xunzun.mp4"
+    },
+    {
+      "id": "sheng_wang_an_ran",
+      "name": "圣王安然",
+      "avatar": "assets/images/shengwanganran.png",
+      "description": "圣院高层之一。降临妖界顶替巡尊完成诱导方羽解开铜片的任务，被方羽打爆本体后成功利用林道尘威胁方羽解开铜片，但并未算计到铜片解开后方羽仍顶着压力悍然出手，被方羽用离火烧死。",
+      "videoUrl": "assets/videos/shengwanganran.mp4"
+    },
+    {
+      "id": "lin_dao_chen",
+      "name": "林道尘",
+      "avatar": "assets/images/lindaochen.png",
+      "description": "方羽的师兄，原天道门掌门。惊才绝艳，剑法高超，在师父道天飞升后接任了天道门掌门之位，渡劫飞升前将天道门掌门之位和天道剑传给了方羽。被圣院掌控以试图威胁方羽放出铜片内的妖帝，方羽将他自圣王安然手里救下，使用如意青莲和大道之力为其祛除体内青气和治疗经脉。方羽去仙界前将他安置于大天辰星羽化门。",
+      "videoUrl": "assets/videos/lindaochen.mp4"
+    },
+    {
+      "id": "nan_lu_tian",
+      "name": "南戮天",
+      "avatar": "assets/images/nanlutian.png",
+      "description": "妖界悬赏榜第一位，和古妖皇之女秋绮郡主是道侣。身具万融之体，能融合不同体质的优点，曾挖了四大妖皇的祖坟，只为融合妖皇血脉增长实力，因此同时得罪了四大妖皇。欲夺取天道剑而袭击琪诺郡主，和寒妙依大战，结果不敌，想要逃跑之际被方羽抓回，最终亡于方羽之手。\n蛮荒界",
+      "videoUrl": "assets/videos/nanlutian.mp4"
+    },
+    {
+      "id": "xiao_li_yu",
+      "name": "小鲤鱼",
+      "avatar": "assets/images/xiaoliyu.png",
+      "description": "真名虞梨儿，蛮荒界北荒仙王世家虞家的小公主。家族背景很强，曾经出过三位仙王。外出到南荒游玩时偶遇方羽一行人，对方羽感到好奇，主动与之交好，很满意方羽对自己的态度，将其引为朋友。",
+      "videoUrl": "assets/videos/xiaoliyu.mp4"
+    },
+    {
+      "id": "bai_mei",
+      "name": "白眉",
+      "avatar": "assets/images/baimei.png",
+      "description": "小鲤鱼的护卫。女扮男装，个性耿直。真实身份为林霸天的部下，奉命接近小鲤鱼以完成自己的目的，但对小鲤鱼的感情也确实出自真心。其来历疑似与小鲤鱼被死兆之地吞噬的母亲有关。",
+      "videoUrl": "assets/videos/baimei.mp4"
+    },
+    {
+      "id": "xiao_wu_ji",
+      "name": "萧无极",
+      "avatar": "assets/images/xiaowuji.png",
+      "description": "无极宗宗主，从地球飞升至蛮荒界的修士，号“无极道人”。和方羽的师父道天是好友，当年他飞升时方羽才刚踏上修行路不久。留在地球的星辰果被方羽所得，于蛮荒界南荒再次创立了无极宗，和方羽会面后互相讲述了各自的经历，感慨不已。",
+      "videoUrl": "assets/videos/xiaowuji.mp4"
+    },
+    {
+      "id": "ling_bu_fan",
+      "name": "凌步凡",
+      "avatar": "assets/images/lingbufan.png",
+      "description": "蛮荒界南荒大元州远阳城凌家家主，从现代地球灵魂穿越至蛮荒界的穿越者。曾是世界五百强企业家，因飞机失事而穿越。运用自己掌握的商业知识把凌家打造成了南荒第一商家，将地球上的部分事物搬到了蛮荒界。与方羽初次见面便暴露了自己穿越者的身份，对方羽这位老乡十分看重，欲与之合作将凌家的产业伸展至南荒之外。位面融合后受黑袍修士委托将本源残片交付给方羽。",
+      "videoUrl": "assets/videos/lingbufan.mp4"
+    },
+    {
+      "id": "qiu_yue_bai",
+      "name": "秋月白",
+      "avatar": "assets/images/qiuyuebai.png",
+      "description": "领悟了残缺大道法则的残缺仙王，号称星月仙王。原本是一名普通修士，在太源山圣地领悟了残缺的大道法则而实力大增。听从君天离之命欲夺回法则之石，被方羽单方面碾压杀死。",
+      "videoUrl": "assets/videos/qiuyuebai.mp4"
+    },
+    {
+      "id": "lv_li",
+      "name": "绿篱",
+      "avatar": "assets/images/lvli.png",
+      "description": "神龙昔日的伙伴，碧海蛟族的末裔。多年前族群遭到围杀，绝境之中被神龙所救，从此跟随神龙闯荡天下并爱上了神龙，在神龙离开蛮荒界后将神龙留给自己的本源融入蛋中，生育出了幽儿。",
+      "videoUrl": "assets/videos/lvli.mp4"
+    },
+    {
+      "id": "you_er",
+      "name": "幽儿",
+      "avatar": "assets/images/youer.png",
+      "description": "绿篱使用神龙本源与自己结合生育的女儿。身具微弱的神龙血脉，自出生后便在太源山圣地下的碧海生活，从小听着母亲诉说神龙的故事长大，后被方羽带到了外面的世界。",
+      "videoUrl": "assets/videos/youer.mp4"
+    },
+    {
+      "id": "xing_qian_yun",
+      "name": "刑千陨",
+      "avatar": "assets/images/xingqianyun.png",
+      "description": "南荒山海宗宗主。多年来为灭杀叛徒都御蛮而费尽心力，在方羽帮助夺回山海经后十分敬重方羽。后被山海宗内奸三长老元真以及永雾仙门弟子金泉联合坑杀，引发方羽怒而为其报仇。",
+      "videoUrl": "assets/videos/xingqianyun.mp4"
+    },
+    {
+      "id": "tun_xian_shou",
+      "name": "吞仙兽",
+      "avatar": "assets/images/tunxianshou.png",
+      "description": "都御蛮以山海经召唤出来的上古凶灵。能力恐怖，专克以修炼七元力为基础的一切修士，传说仙王也要避其三分。被认真的方羽以绝对实力灭杀。",
+      "videoUrl": "assets/videos/tunxianshou.mp4"
+    },
+    {
+      "id": "jing_tian_yi",
+      "name": "经天一",
+      "avatar": "assets/images/jingtianyi.png",
+      "description": "东荒愿灵庙理事阁阁主。觊觎方羽身上的双生仙器——离火玉和极寒之泪，鼓动无相府对方羽出手，事情败露后召唤凶灵，结果被噬空兽虐杀，自己也被方羽击败后囚禁。",
+      "videoUrl": "assets/videos/jingtianyi.mp4"
+    },
+    {
+      "id": "jing_shi",
+      "name": "净世",
+      "avatar": "assets/images/jingshi.png",
+      "description": "东荒天环神殿殿主，仙王级强者。曾经企图呼叫域上天环三大族以天环之力轰击蛮荒界灭杀方羽，被方羽阻拦后拉到乾坤塔第四层开创的小世界内杀死。\n邪圣: 东荒十圣之一。曾以力量形式降临地球与方羽交过手，被噬空兽咬断一臂。在蛮荒界再次见到噬空兽之际被吓得想要逃离，却被圣院命令留在战场观察方羽的能力，战后被控制向方羽传达了几句狠话后自爆。",
+      "videoUrl": "assets/videos/jingshi.mp4"
+    },
+    {
+      "id": "yu_chang_qing",
+      "name": "虞长青",
+      "avatar": "assets/images/yuchangqing.png",
+      "description": "北荒仙王世家虞家家主，小鲤鱼父亲，虞家第三代仙王。实力雄厚，眼光毒辣，能轻易看穿方羽的伪装和寒妙依的神魔体体质。对小鲤鱼很是溺爱，不在乎方羽的目的和来历，只希望其能和小鲤鱼继续做朋友。",
+      "videoUrl": "assets/videos/yuchangqing.mp4"
+    },
+    {
+      "id": "yu_gong_yao",
+      "name": "宇弓瑶",
+      "avatar": "assets/images/yugongyao.png",
+      "description": "北荒仙王世家宇弓家成员。性格极度偏激，小鲤鱼称其为“女疯子”。原本和小鲤鱼的哥哥虞南修有婚约，因兄长宇弓镜被杀而中断，后两家反目成仇。在大道争锋上欲取小鲤鱼性命，被方羽轻松击败，但却因祸得福觉醒了三梵雀血脉，于是再度向方羽挑战，结果又一次被轻松打倒，最后亡于林霸天之手。",
+      "videoUrl": "assets/videos/yugongyao.mp4"
+    },
+    {
+      "id": "zu_tian",
+      "name": "祖天",
+      "avatar": "assets/images/zutian.png",
+      "description": "北荒仙王世家祖家成员。曾降临地球与方羽交手，被完虐后返回上界。融合了大天神血脉，被方羽击败吸收修为后废掉，方羽飞升仙界前将他关押在虞家。",
+      "videoUrl": "assets/videos/zutian.mp4"
+    },
+    {
+      "id": "zu_yi",
+      "name": "祖逸",
+      "avatar": "assets/images/zuyi.png",
+      "description": "北荒仙王世家祖家成员。和祖天竞争激烈。融合了神龙血脉和骨骼，被方羽轻松打倒并将神龙骨骼抽出，后被投靠方羽的祖七伤杀死。",
+      "videoUrl": "assets/videos/zuyi.mp4"
+    },
+    {
+      "id": "wu_yi_yao",
+      "name": "舞一瑶",
+      "avatar": "assets/images/wuyiyao.png",
+      "description": "北荒仙王世家舞家成员。心思单纯，不谙世事。修炼天赋极高，天生通悟灵体，感知能力很强。识破了方羽假扮的祖逸，之后被方羽强大的实力所折服，并渴望成为所谓的炼气期强者。",
+      "videoUrl": "assets/videos/wuyiyao.mp4"
+    },
+    {
+      "id": "zhou_bu_ming",
+      "name": "昼不明",
+      "avatar": "assets/images/zhoubuming.png",
+      "description": "北荒大神佛殿圣子。多年来占据大道榜第一，直到被林霸天假扮的林五千所替代，在大道争锋上向林霸天挑战差点败北。被玉非子欺骗与方羽一行前往上仙庭遗址，后被林霸天以死兆之力杀死并变成黑暗生灵。",
+      "videoUrl": "assets/videos/zhoubuming.mp4"
+    },
+    {
+      "id": "ling",
+      "name": "零",
+      "avatar": "assets/images/ling.png",
+      "description": "北荒大神佛殿圣女。对昼不明有着强烈的崇拜和爱慕之情，被林霸天称为“大聪明”。拥有百万年难得一遇的血脉，与域上神族有很大关联。被玉非子欺骗与方羽一行前往上仙庭遗址，后被林霸天以死兆之力杀死并变成黑暗生灵。",
+      "videoUrl": "assets/videos/ling.mp4"
+    },
+    {
+      "id": "mo_tian",
+      "name": "摩天",
+      "avatar": "assets/images/motian.png",
+      "description": "北荒大神佛殿殿主，仙王级强者。被玉非子欺骗放昼不明一行前往西荒，识破其诡计后前往西荒，在途中其留在大神佛殿内的分身被林霸天以死兆之力所侵蚀，其本体变成黑暗生灵作为林霸天留在北荒的眼线。",
+      "videoUrl": "assets/videos/motian.mp4"
+    },
+    {
+      "id": "ji_jiu_tian",
+      "name": "祭九天",
+      "avatar": "assets/images/jijiutian.png",
+      "description": "西荒魔族之主，仙王级强者。拥有一颗不断勇猛精进的强者之心，在见识到方羽身上的万道之力后被其折服，并请求方羽带他前往域上，甘愿成为方羽的随从。",
+      "videoUrl": "assets/videos/jijiutian.mp4"
+    },
+    {
+      "id": "fei_tian_、_hun_dun",
+      "name": "飞天、混沌",
+      "avatar": "assets/images/feitian.png",
+      "description": "君天离创造出来的类法则生灵，中荒两大势力的幕后操控者。不甘心当君天离的工具，想要反抗却无力回天，被命令当炮灰攻击方羽，二者融合成为混沌天提升实力，却依然不敌被轻松击败。",
+      "videoUrl": "assets/videos/feitian、hundun.mp4"
+    },
+    {
+      "id": "ji_ta_xue",
+      "name": "姬踏雪",
+      "avatar": "assets/images/jitaxue.png",
+      "description": "中荒天北教派的老教主，姬星源的后代。从先祖留下的一本书里看到了关于方羽事迹的记载，对方羽的实力十分信任，并嘱托天北教派的教主凝颜和圣女凝玉要想办法和方羽结盟。后带领方羽前往姬家宗祠，使其得到传承，领悟了天道剑法最终式“诛界”。",
+      "videoUrl": "assets/videos/jitaxue.mp4"
+    },
+    {
+      "id": "ji_xing_yuan",
+      "name": "姬星源",
+      "avatar": "assets/images/jixingyuan.png",
+      "description": "方羽的护道者之一，姬天明的后代。疑似留在地球的意志送给方羽大道灵体。多年前以一己之力将蛮荒界宇神族连根拔起，结果遭到域上神族的清算，自己也死于弟子古擎天之手。在中荒姬家祖祠留下一道意志与方羽见面，并送予其传承。",
+      "videoUrl": "assets/videos/jixingyuan.mp4"
+    },
+    {
+      "id": "chu_tian_xin",
+      "name": "楚天心",
+      "avatar": "assets/images/chutianxin.png",
+      "description": "方羽的护道者之一，古擎天道侣楚灵竹的父亲。曾是惊才绝艳的人族天骄，却被域上罗睺仙尊以一道咒力降下变成猿状生物，后古擎天将之囚禁在厄灵巢穴以作保护。曾与林霸天交手，在听到林霸天口中方羽的名字后以仅存的理智护送林霸天离开。",
+      "videoUrl": "assets/videos/chutianxin.mp4"
+    },
+    {
+      "id": "jun_tian_li",
+      "name": "君天离",
+      "avatar": "assets/images/juntianli.png",
+      "description": "身披金色袈裟的俊美僧人，部下称其为王尊。出身于域上永夜大族，因犯错被贬下凡间，为了重回仙界制定了永夜计划，试图献祭蛮荒界半数生命创造永夜星，博得族中大能的青睐。在诸仙台被方羽轻易击杀本体，靠真灵体复活后本想借助永夜星成为星君，结果却被影仙夺舍，灵魂就此陨灭。",
+      "videoUrl": "assets/videos/juntianli.mp4"
+    },
+    {
+      "id": "gu_qing_tian",
+      "name": "古擎天",
+      "avatar": "assets/images/guqingtian.png",
+      "description": "号擎天尊，姬星源弟子，人族史上天赋最高的修士。曾经的人族仙王，因遭遇域上大族的打击被策反转而针对人族，实际上暗中积蓄力量试图报仇。能操控七大邪尊和六道仙器等超越位面的力量。在与方羽一战前曾向楚天心承诺此战自己将竭尽全力，若是方羽败了则他会以自己的方式为身边的人复仇，如果方羽获胜则自己心甘情愿成为他的踏脚石。最终在诸仙台被方羽击败，于是履行诺言，为保护方羽自己主动吸引位面法则注意而被法则击溃消亡，第二本源融合进方羽体内成为通往仙界的钥匙，曾经的变节者最终也成为了方羽的护道者之一。\n域上仙界",
+      "videoUrl": "assets/videos/guqingtian.mp4"
+    },
+    {
+      "id": "dao_tian",
+      "name": "道天",
+      "avatar": "assets/images/daotian.png",
+      "description": "方羽的师父，原天道门掌门。数千年前渡劫飞升至大天辰星，飞升前在地球留下一道意志，将御兽令交给方羽并帮助他修复了天道剑。在域上罗天仙域与通冥仙尊交手不敌，被未知力量困于通冥界无法脱身，通过旧仙庭与方羽进行了交谈，叮嘱其返回地球寻找天帝经。后牺牲自己激活“铜币”，嘱托冷寻双带领方羽前往人族古域了解当年的真相。 [3]",
+      "videoUrl": "assets/videos/daotian.mp4"
+    },
+    {
+      "id": "que_xing",
+      "name": "阙星",
+      "avatar": "assets/images/quexing.png",
+      "description": "极天仙域仙渊古城七星仙门门主。受师祖千旬影响，对人族抱有善意，曾因帮助两位人族修士而被围攻，身受重伤，后遇见方羽，将两位人族修士嘱托的物品交给了他。在方羽的帮助下，不但治好了伤势，七星仙门也成为了极天仙域的第一大势力。",
+      "videoUrl": "assets/videos/quexing.mp4"
+    },
+    {
+      "id": "ming_li",
+      "name": "冥离",
+      "avatar": "assets/images/mingli.png",
+      "description": "极天仙域冥鬼大族族尊。其先祖是赐予方羽鬼王秘法的鬼王。厌恶神族，不排斥人族，主动和方羽接触，希望能得到帮助，推翻神族统治，在方羽消灭四神后更是死心塌地追随于方羽，为其领路前往圣元仙域，并协助方羽制定行动计划和发展势力。",
+      "videoUrl": "assets/videos/mingli.mp4"
+    },
+    {
+      "id": "feng_lao_tou",
+      "name": "疯老头",
+      "avatar": "assets/images/fenglaotou.png",
+      "description": "本名陆清，人族仙帝白帝的弟子。天生残体，无灵根，原本不适合修行，但凭借惊人的毅力成为了一名出色的修士，可惜止步于天仙修为。曾送给方羽大道之眼、大道灵珠和诛仙笛，并传授了刺杀仙王的要诀以及屠龙之术。为了向方羽传达东狱的信息，故意被道神族发现并激怒南道神殿，临刑前留下线索等待方羽发掘，随后慷慨赴死。",
+      "videoUrl": "assets/videos/fenglaotou.mp4"
+    },
+    {
+      "id": "yao_er",
+      "name": "妖儿",
+      "avatar": "assets/images/yaoer.png",
+      "description": "陆清的同伴。珈蓝族族长孕育的灵婴，其族群在第七次仙域大战中被灭，对神族之恨刻骨铭心，以“神畜”称呼神族及其部下。后遇到陆清，二人既有师徒之实，又情同父女。陆清被杀后妖儿与方羽取得了联系，并将陆清从东狱盗出的青铜门交给了方羽。",
+      "videoUrl": "assets/videos/yaoer.mp4"
+    },
+    {
+      "id": "wu_dao",
+      "name": "无道",
+      "avatar": "assets/images/wudao.png",
+      "description": "圣元仙域南道神殿天尊。道族末裔，第七次仙域大战中被族群以秘法保留了下来，身体实际上已与尸体无异，灵魂长期承受折磨。委托方羽从上道神殿藏经阁内寻找猩红卷轴，只为终结自身痛苦。后在方羽的激励下决心加入方羽的阵营，反抗神族统治。",
+      "videoUrl": "assets/videos/wudao.mp4"
+    },
+    {
+      "id": "gui_wang",
+      "name": "鬼王",
+      "avatar": "assets/images/guiwang.png",
+      "description": "鬼族先祖。其于地球留下的一道意志曾送给方羽鬼王秘法。在域上仙界和方羽碰面时已被极神族杀死制成傀儡，以道神族守护神的身份被操控与方羽大战，后请求方羽杀死自己，死前给后代冥离上了最后一课。",
+      "videoUrl": "assets/videos/guiwang.mp4"
+    },
+    {
+      "id": "tong_jue_xian",
+      "name": "通觉仙",
+      "avatar": "assets/images/tongjuexian.png",
+      "description": "东狱囚犯，被关押已有三万两千二百七十四年。原属紫河仙域，自称遭九鼎仙府陷害犯下屠戮之罪，因而入狱。拥有极强的感知能力，方羽刚到东狱时通觉仙便看出其人族身份，在方羽的要求下被无祭仙释放，后跟随方羽前往其他仙域。",
+      "videoUrl": "assets/videos/tongjuexian.mp4"
+    },
+    {
+      "id": "wu_ji_xian",
+      "name": "无祭仙",
+      "avatar": "assets/images/wujixian.png",
+      "description": "东狱镇守者，星穹尊的继任。实力极为强悍，掌握整个仙界不超过三块的域王石，在使出必杀技却仍然奈何不了方羽后果断认输。不排斥人族，对神族靠剽窃人族起家的说法深以为然。为了跟方羽讲和而将域王石借给方羽，并释放关押的人族囚犯，之后为方羽和通觉仙刻上罗天仙域的仙界烙印，助其进入罗天仙域。性格比较逗比，多次协助方羽。",
+      "videoUrl": "assets/videos/wujixian.mp4"
+    },
+    {
+      "id": "tian_long_huang",
+      "name": "天龙皇",
+      "avatar": "assets/images/tianlonghuang.png",
+      "description": "正统龙族的开创者，天龙一脉的祖先。对烛九阴汲取后代血脉转生的做法嗤之以鼻，不承认烛九阴的龙族之祖身份并称其为“龙族之殇”。在罗天仙域的太古龙潭内留下其传承——至尊龙血和天龙秘法，之后被方羽获得，方羽融合至尊龙血后肉身强度再度上升一个档次。",
+      "videoUrl": "assets/videos/tianlonghuang.mp4"
+    },
+    {
+      "id": "qian_qian",
+      "name": "芊芊",
+      "avatar": "assets/images/qianqian.png",
+      "description": "域上魔族的郡主。曾降临人族祖星欲夺取人族传承，因缘巧合与化名为“唐宇”的方羽相识，在方羽展现出万道之力后坚信方羽乃万道使魔的继承者，并期盼方羽有朝一日能回到魔族与其一同对抗神族。在方羽来到魔族时极力维护，后与族人一起接受了万道始魔的血脉升级。初代魔族回归后，绝大多数魔族被夺舍吞噬，仅余芊芊和祖父墨潜存活，二人后被万道始魔以打探情报的名义派往人族祖星投靠方羽。",
+      "videoUrl": "assets/videos/qianqian.mp4"
+    },
+    {
+      "id": "wan_po",
+      "name": "万破",
+      "avatar": "assets/images/wanpo.png",
+      "description": "降临到人族祖星的三域神王。拥有无量巅峰的修为和可怕的神道法则，但被方羽拉到小世界交战后迅速溃败，成为了俘虏。后在罗天仙域被天道形态下的方羽磨灭了生命磁场彻底死亡。",
+      "videoUrl": "assets/videos/wanpo.mp4"
+    },
+    {
+      "id": "yang_zun",
+      "name": "阳尊",
+      "avatar": "assets/images/yangzun.png",
+      "description": "太古时期的强大至尊仙。曾无敌于一个时代，但遭人族大能北无峰封印在黄铜古棺内，后被方羽意外放出，过于托大被方羽拉进小世界内暴打，但因掌握着更高阶的至尊法则而无法被杀死，之后被方羽关进原囚禁卓古大帝的牢笼之中。",
+      "videoUrl": "assets/videos/yangzun.mp4"
+    },
+    {
+      "id": "shen_gu",
+      "name": "申孤",
+      "avatar": "assets/images/shengu.png",
+      "description": "罗天仙域通冥族之主，号称通冥仙尊。曾打败过妖圣、青武剑宗等对手，亦与道天有过交手并取胜，在万象之镜内以投影的形态败于方羽之手。想要得到方羽身上的大道法则以对抗混神族和获得与神族谈判的筹码，结果却举全族之力也敌不过方羽，后被神族降临神罚灭族。",
+      "videoUrl": "assets/videos/shengu.mp4"
+    },
+    {
+      "id": "luo_hou",
+      "name": "罗睺",
+      "avatar": "assets/images/luohou.png",
+      "description": "大罗仙域咒殿之主，号称咒皇。掌控着极为可怕的咒力，曾使楚天心变为猿状生物失去理智。为了夺取仙帝传承而将人族建立的大道仙门灭门，引起了方羽的怒火。与人族护道者中的叛徒萧御联手，想要成为所谓的新人族，结果咒殿遭方羽全灭，之后逃至炙神族欲寻求帮助，被方羽追上，以如意青莲之力彻底抹杀。",
+      "videoUrl": "assets/videos/luohou.mp4"
+    },
+    {
+      "id": "fu_xian",
+      "name": "抚仙",
+      "avatar": "assets/images/fuxian.png",
+      "description": "天启的部下，唯一的九级尊者。心思缜密，智谋出众，很早以前就猜到方羽和唐宇为同一人，并在被俘后第一时间推理出了北狱和方羽合作的目的。方羽看中其才智，命令他为自己出谋划策推翻神族。",
+      "videoUrl": "assets/videos/fuxian.mp4"
+    },
+    {
+      "id": "xing_yue",
+      "name": "星月",
+      "avatar": "assets/images/xingyue.png",
+      "description": "五域神王，太渊神帝的后裔。长期以来试图复兴太渊一脉，认为太始神帝篡夺了太渊神帝的地位。为立功急于求成，被方羽轻易引出主神界击败并囚禁，交代了不少神族情报，后又被转交给林霸天进行审讯，在林霸天的劝说下同意成为内应。在神秘阁被真实之镜看穿后被天启消灭神魂，强制融合血脉。",
+      "videoUrl": "assets/videos/xingyue.mp4"
+    },
+    {
+      "id": "dao_tu_di_zun",
+      "name": "道屠帝尊",
+      "avatar": "assets/images/daotudizun.png",
+      "description": "北狱镇守者。外表为女性，与无祭仙有着不愉快的过往，成为狱守前是以屠入道的邪修。暗中和方羽合作，试图从至高神族手中得到完整的修神诀。在见识到方羽大道法则的强势后向方羽发难，逼方羽交出法则，但却被方羽击败，北狱崩溃，道屠帝尊被关入西狱牢笼，后被处决。",
+      "videoUrl": "assets/videos/daotudizun.mp4"
+    },
+    {
+      "id": "liu_yu_fei_xian",
+      "name": "六羽飞仙",
+      "avatar": "assets/images/liuyufeixian.png",
+      "description": "西狱镇守者。自诩为史上最强体修，和方羽通过淬体来凝练体魄不同，他走的是血肉堆积的炼体路线，战斗时身躯会大幅膨胀。原本打算抓捕方羽夺取传承，与方羽进行纯体修之间的比拼不分胜负（占下风），于是改变策略，转而和方羽合作谋夺太始神帝的炼体法门。担心自己总有一天要与方羽对决，趁方羽刚运行完人道法则虚弱之际出手，试图将方羽一举击溃，却遭到突然克服了虚弱状态的方羽反击，失败后被位面法则抹杀。",
+      "videoUrl": "assets/videos/liuyufeixian.mp4"
+    },
+    {
+      "id": "nu_tian",
+      "name": "怒天",
+      "avatar": "assets/images/nutian.png",
+      "description": "九域神王，神道榜前十的高手。对神庭的指令言听计从，但据星月所说他的功劳水分很大。神庭发布对方羽的神级通缉令后怒天积极行动，其弟竞天在围剿魔族时遭遇万道始魔，怒天在未知对方身份的情况下对其发出警告，结果惹怒了万道始魔，招来报复，麾下仙域被毁，走投无路之际投靠四大脉尊，又碰到前来灭神的方羽，最后被方羽用噬灵诀粉碎经脉，形神俱灭。",
+      "videoUrl": "assets/videos/nutian.mp4"
+    },
+    {
+      "id": "zhou_tian_shen",
+      "name": "宙天神",
+      "avatar": "assets/images/zhoutianshen.png",
+      "description": "神狱镇守者。神族宙天一脉的脉尊，本体为至高神器——神裁之镰的器灵，拥有在神庭旁听的资格，试图带领宙天一脉加入至高神族。忌惮方羽展现的实力，紧急联系其他几大脉尊，试图联手镇压方羽，结果被方羽一锅端，即使动用了神狱的力量依然无法获胜，最后被方羽消灭。",
+      "videoUrl": "assets/videos/zhoutianshen.mp4"
+    },
+    {
+      "id": "nan_tian_huang",
+      "name": "南天皇",
+      "avatar": "assets/images/nantianhuang.png",
+      "description": "南狱镇守者。四大狱守中资历最老的一位，自南狱诞生起便担任狱守一职。感应到自己即将被位面法则清算，于是主动投靠至高神族，不惜以南狱崩溃为代价试图镇杀方羽，最后败于方羽之手，被位面法则转移至东狱终极牢笼关押，其手执的位面之器“太阿”也被方羽缴获。",
+      "videoUrl": "assets/videos/nantianhuang.mp4"
+    },
+    {
+      "id": "ni_xiao_zong",
+      "name": "倪啸宗",
+      "avatar": "assets/images/nixiaozong.png",
+      "description": "诞生于远古时期的人族，号称太古第一体修。以超强体魄纵横一世，性格暴戾，易被激怒，一出手便会造成巨大灾难。拥有旷古烁今的万古长生体质，肉身无敌于天下，但被其神族道侣背叛窃取了体质而亡，而窃取其体质的神族女修正是如今至高神族的太始神帝。因功法问题，倪啸宗在死后被作为三大凶灵之一收录进了山海经，后揭示他也是方羽的护道者之一，遗留在本源残片中的意志与方羽相见，传授了方羽名为血极功的炼体功法。\n人族古域",
+      "videoUrl": "assets/videos/nixiaozong.mp4"
+    },
+    {
+      "id": "ji_tian_ming",
+      "name": "姬天明",
+      "avatar": "assets/images/jitianming.png",
+      "description": "人族四王之一，号称明王。成名于人族衰落时期，为了拯救族群成立天明军，但被三界会破坏，于是解散天明军，选择亲自将三界会剿灭并击溃当时三界会最强者观蹇，但也因此违反了仙界法则，在好友前任东狱镇守者星穹尊的帮助下免去死罪，被关押进东狱终极牢笼。与方羽见面时神魂已支离破碎，将开创的大道帝术传给方羽后逝去。",
+      "videoUrl": "assets/videos/jitianming.mp4"
+    },
+    {
+      "id": "xing_qiong_zun",
+      "name": "星穹尊",
+      "avatar": "assets/images/xingqiongzun.png",
+      "description": "前任东狱镇守者。视姬天明为自己唯一的朋友，在姬天明被南狱拘捕时提前一步将其关进东狱，并判决大天辰界流放到下界，以此帮助残存人族躲避仙界的追杀，将姬天明关入终极牢笼，保留日后的希望。但也因此，星穹尊违背了仙界大狱镇守者不得有私心的规矩，被仙界法则剥夺了职位后关押进南狱，最终死在狱中。",
+      "videoUrl": "assets/videos/xingqiongzun.mp4"
+    },
+    {
+      "id": "cang_chen",
+      "name": "沧辰",
+      "avatar": "assets/images/cangchen.png",
+      "description": "人族四王之一，号称辰王。四王中作风最为狠厉的一位，曾是仙界万族的噩梦，血洗过针对人族的旧仙庭，并消灭了无数其麾下附属族群，但却被污蔑为叛徒，引来围攻，最后命丧于最信任的师兄夏元昊之手，他的陨落代表着人族的衰落加速。在人族祖星留下一座雕像用以诛杀侵入人族祖星的大量降临者，其意志与方羽合作击败卓古大帝。",
+      "videoUrl": "assets/videos/cangchen.mp4"
+    },
+    {
+      "id": "xia_yuan_hao",
+      "name": "夏元昊",
+      "avatar": "assets/images/xiayuanhao.png",
+      "description": "人族至尊，归一门门主。活跃于第七次仙界大战之前，多年来培养了无数人族强者，桃李满天下，在人族内地位崇高，被视为万尊之师。为了扭转人族灭亡的因果，策划了人族内战，以此消耗人族的力量。后亲手杀死了自己的师弟沧辰，并改变自身血脉，试图规避因果，以新人族的身份延续自身辉煌。",
+      "videoUrl": "assets/videos/xiayuanhao.mp4"
+    },
+    {
+      "id": "jiang_mu_zhi",
+      "name": "姜牧之",
+      "avatar": "assets/images/jiangmuzhi.png",
+      "description": "人族四王之一，号称剑王。有仙界第一剑之称，为了改变人族证道越来越艰难的局面而离开，将儿子斩道托付给好友悟道仙，但师徒却都被融合了神族血脉的天衍门高层杀害，于是姜牧之为了延缓人族的衰落而斩杀了大量混血人族，最终引来位面法则之力，身死道消。通过太煞天皇将剑道和本源残片传与方羽，并告知方羽部分人族往事。",
+      "videoUrl": "assets/videos/jiangmuzhi.mp4"
+    },
+    {
+      "id": "an_xiao_xiao",
+      "name": "安笑笑",
+      "avatar": "assets/images/anxiaoxiao.png",
+      "description": "悟道仙最小的徒弟。原本是天衍门长老悟道仙七个弟子中无忧无虑的小师妹，天资卓绝，位列天衍门十大天骄之一，后经历了天衍门高层围杀悟道仙一脉等变故，看着师父、师兄、师姐一一逝去，遂立志为其报仇。后在姜牧之的安排下进入空兽一脉的领地，学习穿梭之术。\n仙帝/神皇",
+      "videoUrl": "assets/videos/anxiaoxiao.mp4"
+    },
+    {
+      "id": "bu_ke_shuo_zhi_ren",
+      "name": "不可说之人",
+      "avatar": "assets/images/bukeshuozhiren.png",
+      "description": "人族之主，天道剑的锻造者，大道法则的开创者。本书最为神秘的人物，关于其一切信息皆被迷雾笼罩，文中多以“那个人”作为代称，圣院称之为“人族至强者”。掌握世间最为极致的大道法则，曾到达任何生灵不曾攀登过的绝巅，疑似已突破至仙帝之上的境界。封印过万道始魔和妖帝两位顶尖的大族始祖，派遣手下送给方羽许多顶级器物助其一路飞升。据称如今已是油尽灯枯的状态。",
+      "videoUrl": "assets/videos/bukeshuozhiren.mp4"
+    },
+    {
+      "id": "tian_di",
+      "name": "天帝",
+      "avatar": "assets/images/tiandi.png",
+      "description": "人族历史上最惊艳绝伦的仙帝。拥有六道天灵体，开创了天道法则。他的出现为人族后来的强大奠定了基础。曾经镇压过诸多强敌，其中包括古族始祖卓古大帝。后突然销声匿迹，是否陨落不得而知。在人族祖星留下了天帝经，通过意志将传承给了方羽，并叮嘱他“在拥有对抗因果的力量之前，不要对抗因果”。于太古禁区留下的意志帮助方羽击败了妖帝，并为方羽带来了法则和剑道的感悟。",
+      "videoUrl": "assets/videos/tiandi.mp4"
+    },
+    {
+      "id": "bai_di",
+      "name": "白帝",
+      "avatar": "assets/images/baidi.png",
+      "description": "人族仙帝。大道之眼曾经的拥有者，疯老头陆清是其弟子。曾遭受万族围攻，深陷死局之际为保护大道之眼不被异族掠夺而设计让徒弟疯老头杀死自己，并命其将自己的死状弄得凄惨无比，以此误导敌人，让其以为自己是被异族所杀并夺走大道之眼，从而方便掩护疯老头将大道之眼转移。后在冥之界以意念形态和方羽见面，将白帝道本传给了方羽。",
+      "videoUrl": "assets/videos/baidi.mp4"
+    },
+    {
+      "id": "wen_xing_xian_di",
+      "name": "问星仙帝",
+      "avatar": "assets/images/wenxingxiandi.png",
+      "description": "人族仙帝。出身于蓝天界，因犯下某个错误导致蓝天界毁灭。与寒域意志相识，尝试过摆脱宿命，但最终失败，身死道消。曾将自己的部分法则之力留在问星帝印内，被赵乘风得到，后来辗转到了方羽手中。死后的躯体存放于太古禁区，被妖帝夺取融合。最后在妖帝不敌方羽欲脱离肉体逃跑时，问星仙帝的肉身将妖帝的灵魂禁锢，帮助方羽诛杀妖帝。",
+      "videoUrl": "assets/videos/wenxingxiandi.mp4"
+    },
+    {
+      "id": "ti_zun_lao_zu",
+      "name": "体尊老祖",
+      "avatar": "assets/images/tizunlaozu.png",
+      "description": "疑似史上唯一以肉身证道的人族仙帝。无限淬体流的开创者，在历史上被抹除了存在的痕迹。外表为体型单薄、身着白衣的光头老者。将一道意志遗留在地球的墟中，与方羽会面后将体尊之术倾囊相授。方羽为了记住他而称呼其为体尊老祖。",
+      "videoUrl": "assets/videos/tizunlaozu.mp4"
+    },
+    {
+      "id": "gen_yuan_mo_qi",
+      "name": "根源魔气",
+      "avatar": "assets/images/genyuanmoqi.png",
+      "description": "魔族的起源。魔性滔天，性格暴躁。曾经孕育出了万道始魔等初代魔族，被封印在魔族祖地内多年，后由黑衣修士引导芊芊等魔族后代解除封印锁链，释放出了根源魔气以及一百零八位初代魔族，并夺舍了包括芊芊姑姑墨轻语在内的魔族成员。掌控业火魔瞳，能轻易消除万道始魔体内的神族血脉。为寻找合适肉身与圣院合作，融合了妖帝肉体，成为真正意义上的妖魔之祖。神启之地中与万道始魔联手对战原始神族一代神落入下风，于是二魔合体，成为魔族的最强形态。",
+      "videoUrl": "assets/videos/genyuanmoqi.mp4"
+    },
+    {
+      "id": "wan_dao_shi_mo",
+      "name": "万道始魔",
+      "avatar": "assets/images/wandaoshimo.png",
+      "description": "魔族始祖之一。曾经的仙界霸主，外表狰狞，魔性极大，非常残暴。与不可说之人交战不敌被封印在无尽深渊之下，在圣院的协助下破开封印，前往域上仙界。获得新的肉体并恢复部分修为后挟持了花颜花枝，威胁方羽踏入自己设下的陷阱，与方羽交战虽略占上风却依旧无法取胜，后与方羽停战，前往被神族威胁的魔族救火，驱赶和杀死神族成员后留在魔族本族，使用强硬手段提升魔族成员的血脉。因和方羽多次交手导致实力受损，虚弱之际被原始神族之主抓走用作创造新神魔体的实验材料，幸得根源魔气召回并燃烧掉神族血脉，重回巅峰实力。神启之地中与根源魔气联手对战原始神族一代神落入下风，于是二魔合体，成为魔族的最强形态。",
+      "videoUrl": "assets/videos/wandaoshimo.mp4"
+    },
+    {
+      "id": "lun_tian_mo_zu",
+      "name": "轮天魔祖",
+      "avatar": "assets/images/luntianmozu.png",
+      "description": "魔族始祖之一。外貌为一头白发、仙风道骨的男修，性格与万道始魔截然不同，甚至都不像是魔族。原本在魔族内的名声仅次于万道始魔，后来变得寂寂无名，极少有人知道他的存在，之所以如此是因为他与某位原始神族结合生下了完美神魔体，违背了仙界法则，以至于被抹去了存在的痕迹。指导寒妙依修炼魔族与神族心法，并答应她前去帮助方羽，但内心对方羽极为不屑，认为他没有资格得到寒妙依的青睐，但还是选择了暗中跟随守护。后将寒妙依托付给方羽，独自去完成某件事情。方羽击溃仙界北狱后，轮天魔祖成为了新一任北狱镇守者，改名号为轮天尊。",
+      "videoUrl": "assets/videos/luntianmozu.mp4"
+    },
+    {
+      "id": "tian_mo_di_zun",
+      "name": "天魔帝尊",
+      "avatar": "assets/images/tianmodizun.png",
+      "description": "魔族仙帝，天魔一脉先祖。传闻其在巅峰之际屠尽数十个仙域，然后被位面法则抹杀。曾经惨败于太始神帝之手，亲口承认自己不如太始，但也认为太始并非无敌。于魔族留下了一副拳套作为自己的传承，多年来始终未有适配者，直到方羽通过考验，意志体将帝尊之拳传给了方羽。",
+      "videoUrl": "assets/videos/tianmodizun.mp4"
+    },
+    {
+      "id": "yao_di",
+      "name": "妖帝",
+      "avatar": "assets/images/yaodi.png",
+      "description": "妖族始祖。曾与不可说之人交战不敌而被封印在铜片内，后被安然用计迫使方羽解开铜片而放出，与方羽短暂交手后被位面法则传送走，前往域上仙界。恢复部分修为后再次出现，着手重塑妖族，并放话要诛杀方羽，向人族复仇。为了尽快恢复实力而将妖族血祭，结果被方羽截胡，盛怒之下尽全力诛杀方羽，甚至不惜和至高神族联手，结果被方羽以太阿破局，功亏一篑。在圣院的怂恿下融合了问星仙帝的身躯，实力大进，一度压制了方羽，但却被突然出现的天帝意志轻松碾压，道心崩溃。成功逃脱后组建了对付方羽的联盟，但却因成员离心而解散，最终在神异之地第三次败给方羽，彻底灰飞烟灭。",
+      "videoUrl": "assets/videos/yaodi.mp4"
+    },
+    {
+      "id": "zhuo_gu_da_di",
+      "name": "卓古大帝",
+      "avatar": "assets/images/zhuogudadi.png",
+      "description": "古族始祖。实力极为强大，曾被称为仙界第一，但遭人族天帝镇压。后烛九阴之子幽龙于人族祖星意外将他放出，并被夺去其九阴瞳。卓古以一己之力释放了地球上所有对人族有敌意的异族大能，后遭遇方羽和沧辰意志的合力打击，被击败离开地球。在仙界与万道始魔交手，不分胜负，后被方羽插手中断。因拒绝原始神族的邀请而被围攻，得方羽出手相助，之后与方羽结为同盟。",
+      "videoUrl": "assets/videos/zhuogudadi.mp4"
+    },
+    {
+      "id": "yu_xiao_da_di",
+      "name": "羽霄大帝",
+      "avatar": "assets/images/yuxiaodadi.png",
+      "description": "羽霄族始祖。以涅槃法则证道，曾受恩于某位人族修士，在这位人族修士死后欲掌握涅槃之道复活心上人，却发现受限于因果的框架中而无法实现，自身也因触犯因果而香消玉殒。留在族中的意志体将涅槃法则传授于身为人族的方羽。",
+      "videoUrl": "assets/videos/yuxiaodadi.mp4"
+    },
+    {
+      "id": "qing_tian_da_di",
+      "name": "倾天大帝",
+      "avatar": "assets/images/qingtiandadi.png",
+      "description": "天族仙帝。太古四族中多年来唯一未被传闻陨落的仙帝，因他的存在使得天族保留了相当的威慑力，但他也承认就算五个自己也不是太始神帝的对手，评价对方为万古一帝。觊觎方羽身上的传承而对其出手，结果被突破后的方羽轻松击败，沦为方羽的小弟。之后多次打入敌方内部担任卧底，功勋卓著。",
+      "videoUrl": "assets/videos/qingtiandadi.mp4"
+    },
+    {
+      "id": "xu_kong_da_di",
+      "name": "虚空大帝",
+      "avatar": "assets/images/xukongdadi.png",
+      "description": "虚空族仙帝。本体为空兽一脉成员虚空兽。因不满足于现状而离开空兽秘境，选择走修士路线，并最终成为仙帝。曾受过灵族恩惠，故在灵族衰落后收拢成员建立虚空族。被方羽轻松击败，沦为小弟之一。之后忠心耿耿，多次守护人族，对方羽推崇备至，俨然一副舔狗模样，并自诩为人族的一员。",
+      "videoUrl": "assets/videos/xukongdadi.mp4"
+    },
+    {
+      "id": "zhu_jiu_yin",
+      "name": "烛九阴",
+      "avatar": "assets/images/zhujiuyin.png",
+      "description": "诞生于混沌之初的龙蟒之祖，又称烛龙，山海经三大凶灵之首。修为通天，可控昼夜，破碎星辰，无需修炼仅靠转生便可拥有接近仙帝的强度。其本尊曾与至高神族合作杀死神龙，并将尸体丢到云陨大陆。掌握转生之术，通过汲取后代当中佼佼者的血脉，不断进行转生，从而让自身血脉变得强大。曾在得知方羽杀死其最强子嗣滅龙后恼怒不已。其第八世体为三界会首领阴天尊，在即将九世圆满之际被方羽在阴噬谷内找到转生体，最终被方羽用大道钟轰杀并吸收法能。之后原始神族之主利用命像将其复活并改造血脉，作为对付方羽的工具。不久后被派往袭击人族祖星，以时砂溯影困住了方羽，但却让方羽的混沌体彻底觉醒，最后再次遭到虐杀，无法再复活。",
+      "videoUrl": "assets/videos/zhujiuyin.mp4"
+    },
+    {
+      "id": "zhao_xing_di_zun",
+      "name": "曌星帝尊",
+      "avatar": "assets/images/zhaoxingdizun.png",
+      "description": "星族始祖。隐世多年，与旧仙庭合作试图夺取人族气运，被方羽以碾压之势击溃，以大道钟镇杀，成为位面融合后方羽用来杀鸡儆猴的第一个始祖。",
+      "videoUrl": "assets/videos/zhaoxingdizun.mp4"
+    },
+    {
+      "id": "tai_yan_di_zu",
+      "name": "太炎帝祖",
+      "avatar": "assets/images/taiyandizu.png",
+      "description": "炎族始祖。脾气火爆，为避至高神族的锋芒而隐世，位面融合后加入妖帝的联盟，经元祖邀请联手解开原始神族之主的封印，结果一无所获，怒而与妖帝、元祖分道扬镳。原始神族回归后，太炎帝祖被迫归顺并改造血脉，之后奉命前往毁灭人族祖星，被方羽斩杀。",
+      "videoUrl": "assets/videos/taiyandizu.mp4"
+    },
+    {
+      "id": "yuan_zu",
+      "name": "元祖",
+      "avatar": "assets/images/yuanzu.png",
+      "description": "元族始祖。多年未曾出现，被妖帝和太炎帝祖说服决定联手，欲解开原始神族的封印为己所用，不料为原始神族做了嫁衣，于是退出了妖帝的联盟。原始神族回归后，元祖被迫归顺并改造血脉，之后奉命前往毁灭人族祖星，被方羽斩杀。",
+      "videoUrl": "assets/videos/yuanzu.mp4"
+    },
+    {
+      "id": "dong_huang",
+      "name": "东皇",
+      "avatar": "assets/images/donghuang.png",
+      "description": "神庭四皇之一。和太始一脉的晟天和真霆关系密切。与神语者相识，以方羽和砂皇的胜负为赌注，希望见到原始神族之主的尸体。欲得到太始神帝悬赏的神明之焰，和众神皇一起进攻人族祖星，被方羽以大道钟轰杀。",
+      "videoUrl": "assets/videos/donghuang.mp4"
+    },
+    {
+      "id": "sha_huang",
+      "name": "砂皇",
+      "avatar": "assets/images/shahuang.png",
+      "description": "神庭四皇之一。和太始一脉的千盟和千菱关系密切。因千盟死于太古禁区而在族内威望骤降，为了挽尊决定击杀方羽，一开始因占尽先手而取得优势，后被方羽以血极功逆转，死于大道钟之下。",
+      "videoUrl": "assets/videos/shahuang.mp4"
+    },
+    {
+      "id": "yu_huang",
+      "name": "御皇",
+      "avatar": "assets/images/yuhuang.png",
+      "description": "神庭四皇之一。和太始一脉的天启的关系密切。在天启被钦定为帝子后地位大增。接受天启的提议于悟道树下领悟新的至高神道，成功突破。奉天启之命攻击原始神族领地，最终被乱入的方羽以人道法则杀死。",
+      "videoUrl": "assets/videos/yuhuang.mp4"
+    },
+    {
+      "id": "dao_shi_huang",
+      "name": "道始皇",
+      "avatar": "assets/images/daoshihuang.png",
+      "description": "神庭四皇中资历最老的一位。多年前就已经闭关悟道，冲击更高层次，不再主持神庭事务。在方羽击杀砂皇后复出，出手试探方羽的力量上限，被方羽隔空打退，后与众神皇围攻方羽，结果无功而返。接受天启的提议于悟道树下领悟新的至高神道，成功突破。奉天启之命攻击原始神族领地，最终被乱入的方羽以人道法则杀死。",
+      "videoUrl": "assets/videos/daoshihuang.mp4"
+    },
+    {
+      "id": "tian_qi",
+      "name": "天启",
+      "avatar": "assets/images/tianqi.png",
+      "description": "至高神族成员，太始神帝的直系后代。不喜和神域内的至高神族成员来往，在仙界独自拥有神命仙域作为根据地，是极少数与外界有接触的至高神族成员。花费了大量的时间和精力追求星月神王，但真实目的为夺取融合星月的太渊血脉。成功融合血脉后被太始神帝钦定为帝子，经历了更高纯度血脉的淬体，并领悟了更强的至高神道法则，突破至神皇境。",
+      "videoUrl": "assets/videos/tianqi.mp4"
+    },
+    {
+      "id": "tai_shi_shen_di",
+      "name": "太始神帝",
+      "avatar": "assets/images/taishishendi.png",
+      "description": "至高神族的创始者。开创了部分神道法则，为仙界明面上的最强者。据传闻曾窃取融合了四大体质，其中包括其道侣倪啸宗的万古长生体和兄长太渊的先天至尊神体，将自己的父亲囚禁于北狱，但真实情况随着剧情推进似乎另有隐情。",
+      "videoUrl": "assets/videos/taishishendi.mp4"
+    },
+    {
+      "id": "tai_yuan_shen_di",
+      "name": "太渊神帝",
+      "avatar": "assets/images/taiyuanshendi.png",
+      "description": "太始神帝的哥哥。外界传闻被太始神帝窃取了体质并囚禁，但据本人所说是因自己贪恋权力与力量而犯下罪孽，导致神魂和血肉不再完整。自愿附身于天启，欲协助其走上巅峰来弥补自己的错误。 [6]",
+      "videoUrl": "assets/videos/taiyuanshendi.mp4"
+    },
+    {
+      "id": "shen_zhu",
+      "name": "神主",
+      "avatar": "assets/images/shenzhu.png",
+      "description": "原始神族之主。被位面之器封印在神异之地无数岁月，经三大始祖联手释放，重返世间。和方羽（前世？）为旧相识。自称至高神，拥有使用命像复活特定目标的能力，强迫大量强者归附原始神族，放言将带领原始神族重新登顶世间。多年前就开始布局，将自己的肉身留在了极阴之地汲取黑暗力量打造因果之躯，并分裂出九位一代神，试图融合九道原始法则，达到真正意义上无敌的程度。于神启之地和太始神帝、方羽、万道始魔大战，在融合法则的最后关头被太始神帝提前打入印记，最终，神魂被磨灭，身躯和法则都被吞噬，沦为他人嫁衣，原始神族也彻底灭亡。\n其他角色",
+      "videoUrl": "assets/videos/shenzhu.mp4"
+    },
+    {
+      "id": "shen_pan_guan",
+      "name": "审判官",
+      "avatar": "assets/images/shenpanguan.png",
+      "description": "死轮星的控制者。出身于仙界，因犯错而被下放，成为死轮星审判官，拥有审判除仙界外其他域下位面中被送往死轮星的囚犯的权力，但自身也被束缚在死轮星无法离开。对方羽提出了调查人族本源残片下落的委托，也曾将方羽的情报出卖给过圣院，只要付得起代价，他就可以和任何人进行交易。方羽击溃仙界南狱后，死轮星借位面融合之际成为了新的南狱，审判官也成为了新一任南狱镇守者。",
+      "videoUrl": "assets/videos/shenpanguan.mp4"
+    },
+    {
+      "id": "mie_ling",
+      "name": "灭灵",
+      "avatar": "assets/images/mieling.png",
+      "description": "由凐灭之力组成的法则生灵，专为凐灭万灵而生。在蛮荒界内大开杀戒后被位面法则转移到地球，实力受到多层位面压制，但仍十分可怕，极难被消灭。与方羽三次交手：第一次承受方羽八成力道的一拳侥幸不死；第二次被方羽用大道之眼分解身躯而亡；第三次在万象之镜内以记录巅峰时期的实力与方羽交手被完全压制，后因圣院面具修士解除万象之镜而中断。",
+      "videoUrl": "assets/videos/mieling.mp4"
+    },
+    {
+      "id": "xing_chen_tun_shi_zhe",
+      "name": "星辰吞噬者",
+      "avatar": "assets/images/xingchentunshizhe.png",
+      "description": "诞生于混沌之初的法则生灵。身体由太初时无数崩坏、残缺的位面法则碎片凝聚而成，无语言功能，一切行动皆为本能，成长速度极快并且无上限。吞噬星辰无数，胸口的法石内蕴藏着巨量的星辰之力，一旦爆发便可轻易造成极大范围内的巨大伤害，实力之强悍就连方羽也难以将其压制。曾在虚渊界和妖界与方羽两次交手，均不分胜负，但在方羽以封神榜淬体后再次交战时略处下风。位面融合后将地球吞噬入体内，以此向方羽提出庇护合作的要求，成为方羽的三号小弟。",
+      "videoUrl": "assets/videos/xingchentunshizhe.mp4"
+    },
+    {
+      "id": "lin_yuan_shen",
+      "name": "临渊神",
+      "avatar": "assets/images/linyuanshen.png",
+      "description": "山海经三大凶灵之一。诞生于远古时期，一身神骨，可承天域之重，以吞食生灵精血为主，一旦被其视作目标，永世无法逃脱。",
+      "videoUrl": "assets/videos/linyuanshen.mp4"
+    },
+    {
+      "id": "shen_yuan_zhi_nv",
+      "name": "深渊之女",
+      "avatar": "assets/images/shenyuanzhinv.png",
+      "description": "域外巨兽之一。身体极其庞大，外形似一只巨大的蛤蟆。曾认出方羽的大道之眼。",
+      "videoUrl": "assets/videos/shenyuanzhinv.mp4"
+    },
+    {
+      "id": "chou_hen_zhi_gu",
+      "name": "仇恨之骨",
+      "avatar": "assets/images/chouhenzhigu.png",
+      "description": "域外巨兽之一。身长千米，外形似一只巨大的蝙蝠。拥有永世不灭的骨骼，与方羽交手不敌，其翅膀骨骼被方羽夺走用以加强武器。",
+      "videoUrl": "assets/videos/chouhenzhigu.mp4"
+    },
+    {
+      "id": "tun_tian_ju_ling",
+      "name": "吞天巨灵",
+      "avatar": "assets/images/tuntianjuling.png",
+      "description": "域外巨兽之一。身高万里，体型通天。被未知存在封印在太阴仙域，将吞天之印传授给方羽，希望他有朝一日帮自己解除封印。",
+      "videoUrl": "assets/videos/tuntianjuling.mp4"
+    },
+    {
+      "id": "qi_cai_qi_lin",
+      "name": "七彩麒麟",
+      "avatar": "assets/images/qicaiqilin.png",
+      "description": "万域神兽，战斗力十分强悍，能控制七彩圣焰。原本为古擎天的灵宠，被命令与方羽对战，后败于山海经三大凶灵联手。古擎天死后，麒麟感应到古擎天留在方羽体内的第二本源，遂认方羽为主，随其征战仙界。",
+      "videoUrl": "assets/videos/qicaiqilin.mp4"
+    },
+    {
+      "id": "wu_zhuo_zhi_nie",
+      "name": "五浊之孽",
+      "avatar": "assets/images/wuzhuozhinie.png",
+      "description": "诞生于太初之始的强大法则凶灵。体型极其巨大，可媲美深渊之女，浑身燃烧着五色火焰。曾造成位面生灵的大灭绝，被林霸天设计让方羽放出，进行整个仙界的格局整顿与改造。后被位面法则回收。",
+      "videoUrl": "assets/videos/wuzhuozhinie.mp4"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "lin_ba_tian",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "lin_ba_tian",
+      "target": "su_leng_yun",
+      "type": "master_disciple"
+    },
+    {
+      "source": "leng_xun_shuang_/_ji_ru_mei",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "leng_xun_shuang_/_ji_ru_mei",
+      "target": "lin_ba_tian",
+      "type": "master_disciple"
+    },
+    {
+      "source": "leng_xun_shuang_/_ji_ru_mei",
+      "target": "han_miao_yi",
+      "type": "master_disciple"
+    },
+    {
+      "source": "han_miao_yi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "han_miao_yi",
+      "target": "han_ding_tian",
+      "type": "connected"
+    },
+    {
+      "source": "han_miao_yi",
+      "target": "yuan_yu",
+      "type": "connected"
+    },
+    {
+      "source": "han_miao_yi",
+      "target": "zhi_xin_ge_ge_zhu",
+      "type": "connected"
+    },
+    {
+      "source": "han_miao_yi",
+      "target": "lun_tian_mo_zu",
+      "type": "connected"
+    },
+    {
+      "source": "shi_kong_shou",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "shi_kong_shou",
+      "target": "lve_kong_shou",
+      "type": "connected"
+    },
+    {
+      "source": "shi_kong_shou",
+      "target": "zhu_jiu_yin",
+      "type": "connected"
+    },
+    {
+      "source": "lve_kong_shou",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tang_xiao_rou",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "tang_ming_de",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "tang_ming_de",
+      "target": "tang_xiao_rou",
+      "type": "family"
+    },
+    {
+      "source": "tang_feng",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tang_feng",
+      "target": "tang_xiao_rou",
+      "type": "connected"
+    },
+    {
+      "source": "tang_feng",
+      "target": "tang_ming_de",
+      "type": "connected"
+    },
+    {
+      "source": "ji_dong_shan",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "yang_yin_zhu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "gu_ru_long",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "qin_yi_mo",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qin_yi_mo",
+      "target": "qin_wu_dao",
+      "type": "connected"
+    },
+    {
+      "source": "qin_yi_mo",
+      "target": "wu_dao",
+      "type": "connected"
+    },
+    {
+      "source": "qin_wu_dao",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qin_wu_dao",
+      "target": "qin_lang",
+      "type": "connected"
+    },
+    {
+      "source": "qin_lang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qin_lang",
+      "target": "qin_yi_mo",
+      "type": "connected"
+    },
+    {
+      "source": "qin_lang",
+      "target": "wu_dao",
+      "type": "connected"
+    },
+    {
+      "source": "yu_yue_yue",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "yu_yue_yue",
+      "target": "wang_yan",
+      "type": "master_disciple"
+    },
+    {
+      "source": "wang_yan",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "yu_yue_yue",
+      "target": "wang_yan",
+      "type": "family"
+    },
+    {
+      "source": "liu_pang_zi",
+      "target": "fang_yu",
+      "type": "friend"
+    },
+    {
+      "source": "li_bing_yan",
+      "target": "fang_yu",
+      "type": "friend"
+    },
+    {
+      "source": "ding_ran",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "su_leng_yun",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "liu_lian_sha",
+      "target": "su_leng_yun",
+      "type": "master_disciple"
+    },
+    {
+      "source": "liu_lian_sha",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "su_leng_yun",
+      "target": "liu_lian_sha",
+      "type": "master_disciple"
+    },
+    {
+      "source": "song_liu_ge",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "xia_xiao_ying",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "xiao_chen",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "xiao_chen",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "jiang_dao",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "chen_luo",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "dao_kong",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "bu_xiu_wang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "bai_ran",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "bai_ran",
+      "target": "lin_zhi_lan",
+      "type": "connected"
+    },
+    {
+      "source": "bai_ran",
+      "target": "su_zhang_ge",
+      "type": "connected"
+    },
+    {
+      "source": "jia_li_bo_shi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "jia_li_bo_shi",
+      "target": "hong_lian",
+      "type": "connected"
+    },
+    {
+      "source": "jia_li_bo_shi",
+      "target": "zi_luo_lan",
+      "type": "connected"
+    },
+    {
+      "source": "hong_lian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zi_luo_lan",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zi_luo_lan",
+      "target": "yan_zhen",
+      "type": "connected"
+    },
+    {
+      "source": "ye_sheng_xue",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "da_zhao_mo_shi_huang",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "da_zhao_mo_shi_huang",
+      "target": "hong_lian",
+      "type": "family"
+    },
+    {
+      "source": "zhao_zi_nan",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zhao_zi_nan",
+      "target": "zhao_xuan",
+      "type": "connected"
+    },
+    {
+      "source": "lin_zhi_lan",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "lin_zhi_lan",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "qi_ruo_qing",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "ling_er",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "fang_yu",
+      "target": "huai_xu",
+      "type": "friend"
+    },
+    {
+      "source": "zheng_ze",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "huai_xu",
+      "target": "zheng_ze",
+      "type": "master_disciple"
+    },
+    {
+      "source": "ou_yang_xiu_yuan",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "ou_yang_xiu_yuan",
+      "target": "huai_xu",
+      "type": "family"
+    },
+    {
+      "source": "yan_zhen",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "su_zhang_ge",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "su_zhang_ge",
+      "target": "ling",
+      "type": "master_disciple"
+    },
+    {
+      "source": "yuan_san_quan",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "yuan_san_quan",
+      "target": "huai_xu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "yuan_san_quan",
+      "target": "mie_ling",
+      "type": "master_disciple"
+    },
+    {
+      "source": "mu_rong_jian",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "yuan_san_quan",
+      "target": "mu_rong_jian",
+      "type": "master_disciple"
+    },
+    {
+      "source": "luo_xi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qin_yao",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "lao_gui",
+      "target": "qin_yao",
+      "type": "master_disciple"
+    },
+    {
+      "source": "lao_gui",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "lao_gui",
+      "target": "ling_er",
+      "type": "connected"
+    },
+    {
+      "source": "lao_gui",
+      "target": "qin_yao",
+      "type": "connected"
+    },
+    {
+      "source": "bai_kong_gu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "bai_kong_gu",
+      "target": "wu_chen_zi",
+      "type": "connected"
+    },
+    {
+      "source": "rao_dong_hai",
+      "target": "bai_kong_gu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "rao_dong_hai",
+      "target": "wu_chen_zi",
+      "type": "master_disciple"
+    },
+    {
+      "source": "da_wei",
+      "target": "bai_kong_gu",
+      "type": "connected"
+    },
+    {
+      "source": "wu_chen_zi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "cang_yu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tian_ji_dao_ren",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tian_ji_dao_ren",
+      "target": "xiao_xi_er",
+      "type": "connected"
+    },
+    {
+      "source": "tian_ji_dao_ren",
+      "target": "chen_qian_an",
+      "type": "connected"
+    },
+    {
+      "source": "xiao_xi_er",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "xiao_xi_er",
+      "target": "tian_ji_dao_ren",
+      "type": "master_disciple"
+    },
+    {
+      "source": "chen_qian_an",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "chen_qian_an",
+      "target": "xiao_xi_er",
+      "type": "connected"
+    },
+    {
+      "source": "chen_qian_an",
+      "target": "hong_yao_zu",
+      "type": "connected"
+    },
+    {
+      "source": "chen_qian_an",
+      "target": "ji_wan_gu",
+      "type": "connected"
+    },
+    {
+      "source": "chen_qian_an",
+      "target": "zhi_xin_ge_ge_zhu",
+      "type": "connected"
+    },
+    {
+      "source": "mu_qing_ran",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "xiang_tian_he",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "lv_hai_hai_ling",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "lv_hai_hai_ling",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "lv_hai_hai_ling",
+      "target": "dao_tian",
+      "type": "connected"
+    },
+    {
+      "source": "xu_jia_lu",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "xu_jia_lu",
+      "target": "su_zhang_ge",
+      "type": "master_disciple"
+    },
+    {
+      "source": "xu_jia_lu",
+      "target": "mu_qing_ran",
+      "type": "master_disciple"
+    },
+    {
+      "source": "shu_meng",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "hua_yan",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "hua_yan",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "hua_yan",
+      "target": "wan_dao_shi_mo",
+      "type": "connected"
+    },
+    {
+      "source": "hua_zhi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "hua_zhi",
+      "target": "hua_yan",
+      "type": "connected"
+    },
+    {
+      "source": "hua_zhi",
+      "target": "hong_tian_chen",
+      "type": "connected"
+    },
+    {
+      "source": "hua_zhi",
+      "target": "wan_dao_shi_mo",
+      "type": "connected"
+    },
+    {
+      "source": "chen_ye",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "ye_ge",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "ye_ge",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "zhao_cheng_feng",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "hong_tian_chen",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tong_wu_shuang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tong_wu_shuang",
+      "target": "mo_qing_han",
+      "type": "connected"
+    },
+    {
+      "source": "mo_qing_han",
+      "target": "fang_yu",
+      "type": "fiance"
+    },
+    {
+      "source": "lin_ba_tian",
+      "target": "mo_qing_han",
+      "type": "fiance"
+    },
+    {
+      "source": "mo_qing_han",
+      "target": "tong_wu_shuang",
+      "type": "fiance"
+    },
+    {
+      "source": "sheng_tian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "xuan_wang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "si_nan_xin",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "han_ding_tian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "han_ding_tian",
+      "target": "yuan_yu",
+      "type": "connected"
+    },
+    {
+      "source": "yuan_shi_zhi_zun",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "yuan_shi_zhi_zun",
+      "target": "ji_wan_gu",
+      "type": "connected"
+    },
+    {
+      "source": "xiao_qiu",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "yuan_shi_zhi_zun",
+      "target": "xiao_qiu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "gu_long",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "gu_long",
+      "target": "zhu_jiu_yin",
+      "type": "connected"
+    },
+    {
+      "source": "zhi_xi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "hong_yao_zu",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "fei_qi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "wang_fan",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "wang_fan",
+      "target": "yuan_shi_zhi_zun",
+      "type": "connected"
+    },
+    {
+      "source": "yuan_yu",
+      "target": "yuan_shi_zhi_zun",
+      "type": "connected"
+    },
+    {
+      "source": "yuan_yu",
+      "target": "zhi_xin_ge_ge_zhu",
+      "type": "connected"
+    },
+    {
+      "source": "yuan_yu",
+      "target": "mie_ling",
+      "type": "connected"
+    },
+    {
+      "source": "ye_mo",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "lin_lang_sheng_mu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "lin_lang_sheng_mu",
+      "target": "ye_mo",
+      "type": "connected"
+    },
+    {
+      "source": "ji_wan_gu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "ji_wan_gu",
+      "target": "wang_fan",
+      "type": "connected"
+    },
+    {
+      "source": "ji_wan_gu",
+      "target": "shen_zhu",
+      "type": "connected"
+    },
+    {
+      "source": "chi_xuan_（_chi_xing_）",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "chi_xuan_（_chi_xing_）",
+      "target": "ji_wan_gu",
+      "type": "connected"
+    },
+    {
+      "source": "zhi_xin_ge_ge_zhu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qi_nuo_jun_zhu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qi_nuo_jun_zhu",
+      "target": "gu_yao_huang",
+      "type": "connected"
+    },
+    {
+      "source": "gu_yao_huang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "gu_yao_huang",
+      "target": "sheng_wang_an_ran",
+      "type": "connected"
+    },
+    {
+      "source": "gu_yao_huang",
+      "target": "yao_di",
+      "type": "connected"
+    },
+    {
+      "source": "xiao_yue_huang_hou",
+      "target": "fang_yu",
+      "type": "fiance"
+    },
+    {
+      "source": "gu_yao_huang",
+      "target": "xiao_yue_huang_hou",
+      "type": "fiance"
+    },
+    {
+      "source": "gui_zhe_xian",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "gui_zhe_xian",
+      "target": "han_miao_yi",
+      "type": "family"
+    },
+    {
+      "source": "gui_zhe_xian",
+      "target": "sheng_wang_an_ran",
+      "type": "family"
+    },
+    {
+      "source": "gui_zhe_xian",
+      "target": "xing_chen_tun_shi_zhe",
+      "type": "family"
+    },
+    {
+      "source": "xun_zun",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "xun_zun",
+      "target": "sheng_wang_an_ran",
+      "type": "connected"
+    },
+    {
+      "source": "xun_zun",
+      "target": "lin_dao_chen",
+      "type": "connected"
+    },
+    {
+      "source": "sheng_wang_an_ran",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "sheng_wang_an_ran",
+      "target": "lin_dao_chen",
+      "type": "connected"
+    },
+    {
+      "source": "lin_dao_chen",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "lin_dao_chen",
+      "target": "sheng_wang_an_ran",
+      "type": "master_disciple"
+    },
+    {
+      "source": "lin_dao_chen",
+      "target": "dao_tian",
+      "type": "master_disciple"
+    },
+    {
+      "source": "lin_dao_chen",
+      "target": "yao_di",
+      "type": "master_disciple"
+    },
+    {
+      "source": "nan_lu_tian",
+      "target": "fang_yu",
+      "type": "fiance"
+    },
+    {
+      "source": "nan_lu_tian",
+      "target": "han_miao_yi",
+      "type": "fiance"
+    },
+    {
+      "source": "nan_lu_tian",
+      "target": "qi_nuo_jun_zhu",
+      "type": "fiance"
+    },
+    {
+      "source": "nan_lu_tian",
+      "target": "gu_yao_huang",
+      "type": "fiance"
+    },
+    {
+      "source": "xiao_li_yu",
+      "target": "fang_yu",
+      "type": "friend"
+    },
+    {
+      "source": "bai_mei",
+      "target": "lin_ba_tian",
+      "type": "family"
+    },
+    {
+      "source": "bai_mei",
+      "target": "xiao_li_yu",
+      "type": "family"
+    },
+    {
+      "source": "fang_yu",
+      "target": "xiao_wu_ji",
+      "type": "master_disciple"
+    },
+    {
+      "source": "xiao_wu_ji",
+      "target": "dao_tian",
+      "type": "master_disciple"
+    },
+    {
+      "source": "ling_bu_fan",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qiu_yue_bai",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qiu_yue_bai",
+      "target": "jun_tian_li",
+      "type": "connected"
+    },
+    {
+      "source": "qiu_yue_bai",
+      "target": "xing_yue",
+      "type": "connected"
+    },
+    {
+      "source": "lv_li",
+      "target": "you_er",
+      "type": "connected"
+    },
+    {
+      "source": "you_er",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "you_er",
+      "target": "lv_li",
+      "type": "family"
+    },
+    {
+      "source": "xing_qian_yun",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "tun_xian_shou",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "jing_tian_yi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "jing_tian_yi",
+      "target": "shi_kong_shou",
+      "type": "connected"
+    },
+    {
+      "source": "jing_shi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "jing_shi",
+      "target": "shi_kong_shou",
+      "type": "connected"
+    },
+    {
+      "source": "yu_chang_qing",
+      "target": "fang_yu",
+      "type": "friend"
+    },
+    {
+      "source": "yu_chang_qing",
+      "target": "han_miao_yi",
+      "type": "friend"
+    },
+    {
+      "source": "yu_chang_qing",
+      "target": "xiao_li_yu",
+      "type": "friend"
+    },
+    {
+      "source": "yu_gong_yao",
+      "target": "fang_yu",
+      "type": "fiance"
+    },
+    {
+      "source": "yu_gong_yao",
+      "target": "lin_ba_tian",
+      "type": "fiance"
+    },
+    {
+      "source": "yu_gong_yao",
+      "target": "xiao_li_yu",
+      "type": "fiance"
+    },
+    {
+      "source": "zu_tian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zu_yi",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zu_yi",
+      "target": "zu_tian",
+      "type": "connected"
+    },
+    {
+      "source": "wu_yi_yao",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "wu_yi_yao",
+      "target": "zu_yi",
+      "type": "connected"
+    },
+    {
+      "source": "zhou_bu_ming",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zhou_bu_ming",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "ling",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "ling",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "ling",
+      "target": "zhou_bu_ming",
+      "type": "connected"
+    },
+    {
+      "source": "mo_tian",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "mo_tian",
+      "target": "zhou_bu_ming",
+      "type": "connected"
+    },
+    {
+      "source": "ji_jiu_tian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "fei_tian_、_hun_dun",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "fei_tian_、_hun_dun",
+      "target": "jun_tian_li",
+      "type": "connected"
+    },
+    {
+      "source": "ji_ta_xue",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "ji_ta_xue",
+      "target": "ji_xing_yuan",
+      "type": "connected"
+    },
+    {
+      "source": "ji_xing_yuan",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "ji_xing_yuan",
+      "target": "gu_qing_tian",
+      "type": "master_disciple"
+    },
+    {
+      "source": "ji_xing_yuan",
+      "target": "ji_tian_ming",
+      "type": "master_disciple"
+    },
+    {
+      "source": "chu_tian_xin",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "chu_tian_xin",
+      "target": "lin_ba_tian",
+      "type": "family"
+    },
+    {
+      "source": "chu_tian_xin",
+      "target": "gu_qing_tian",
+      "type": "family"
+    },
+    {
+      "source": "chu_tian_xin",
+      "target": "luo_hou",
+      "type": "family"
+    },
+    {
+      "source": "jun_tian_li",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "gu_qing_tian",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "gu_qing_tian",
+      "target": "ji_xing_yuan",
+      "type": "master_disciple"
+    },
+    {
+      "source": "gu_qing_tian",
+      "target": "chu_tian_xin",
+      "type": "master_disciple"
+    },
+    {
+      "source": "fang_yu",
+      "target": "dao_tian",
+      "type": "master_disciple"
+    },
+    {
+      "source": "dao_tian",
+      "target": "tian_di",
+      "type": "master_disciple"
+    },
+    {
+      "source": "que_xing",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "ming_li",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "ming_li",
+      "target": "gui_wang",
+      "type": "connected"
+    },
+    {
+      "source": "feng_lao_tou",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "bai_di",
+      "target": "feng_lao_tou",
+      "type": "master_disciple"
+    },
+    {
+      "source": "yao_er",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "wu_dao",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "gui_wang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tong_jue_xian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tong_jue_xian",
+      "target": "wu_ji_xian",
+      "type": "connected"
+    },
+    {
+      "source": "wu_ji_xian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "wu_ji_xian",
+      "target": "xing_qiong_zun",
+      "type": "connected"
+    },
+    {
+      "source": "tian_long_huang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tian_long_huang",
+      "target": "zhu_jiu_yin",
+      "type": "connected"
+    },
+    {
+      "source": "qian_qian",
+      "target": "fang_yu",
+      "type": "family"
+    },
+    {
+      "source": "qian_qian",
+      "target": "wan_dao_shi_mo",
+      "type": "family"
+    },
+    {
+      "source": "wan_po",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "yang_zun",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "yang_zun",
+      "target": "zhuo_gu_da_di",
+      "type": "connected"
+    },
+    {
+      "source": "shen_gu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "shen_gu",
+      "target": "dao_tian",
+      "type": "connected"
+    },
+    {
+      "source": "luo_hou",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "luo_hou",
+      "target": "chu_tian_xin",
+      "type": "connected"
+    },
+    {
+      "source": "fu_xian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "fu_xian",
+      "target": "tian_qi",
+      "type": "connected"
+    },
+    {
+      "source": "xing_yue",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "xing_yue",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "xing_yue",
+      "target": "tian_qi",
+      "type": "connected"
+    },
+    {
+      "source": "xing_yue",
+      "target": "tai_shi_shen_di",
+      "type": "connected"
+    },
+    {
+      "source": "xing_yue",
+      "target": "tai_yuan_shen_di",
+      "type": "connected"
+    },
+    {
+      "source": "dao_tu_di_zun",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "dao_tu_di_zun",
+      "target": "wu_ji_xian",
+      "type": "connected"
+    },
+    {
+      "source": "liu_yu_fei_xian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "liu_yu_fei_xian",
+      "target": "tai_shi_shen_di",
+      "type": "connected"
+    },
+    {
+      "source": "nu_tian",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "nu_tian",
+      "target": "xing_yue",
+      "type": "connected"
+    },
+    {
+      "source": "nu_tian",
+      "target": "wan_dao_shi_mo",
+      "type": "connected"
+    },
+    {
+      "source": "zhou_tian_shen",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "nan_tian_huang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "ni_xiao_zong",
+      "target": "fang_yu",
+      "type": "fiance"
+    },
+    {
+      "source": "ni_xiao_zong",
+      "target": "tai_shi_shen_di",
+      "type": "fiance"
+    },
+    {
+      "source": "ji_tian_ming",
+      "target": "fang_yu",
+      "type": "friend"
+    },
+    {
+      "source": "ji_tian_ming",
+      "target": "xing_qiong_zun",
+      "type": "friend"
+    },
+    {
+      "source": "cang_chen",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "cang_chen",
+      "target": "xia_yuan_hao",
+      "type": "connected"
+    },
+    {
+      "source": "cang_chen",
+      "target": "zhuo_gu_da_di",
+      "type": "connected"
+    },
+    {
+      "source": "jiang_mu_zhi",
+      "target": "fang_yu",
+      "type": "friend"
+    },
+    {
+      "source": "an_xiao_xiao",
+      "target": "jiang_mu_zhi",
+      "type": "master_disciple"
+    },
+    {
+      "source": "bu_ke_shuo_zhi_ren",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "bu_ke_shuo_zhi_ren",
+      "target": "wan_dao_shi_mo",
+      "type": "connected"
+    },
+    {
+      "source": "bu_ke_shuo_zhi_ren",
+      "target": "yao_di",
+      "type": "connected"
+    },
+    {
+      "source": "tian_di",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tian_di",
+      "target": "dao_tian",
+      "type": "connected"
+    },
+    {
+      "source": "tian_di",
+      "target": "yao_di",
+      "type": "connected"
+    },
+    {
+      "source": "tian_di",
+      "target": "zhuo_gu_da_di",
+      "type": "connected"
+    },
+    {
+      "source": "bai_di",
+      "target": "fang_yu",
+      "type": "master_disciple"
+    },
+    {
+      "source": "wen_xing_xian_di",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "wen_xing_xian_di",
+      "target": "zhao_cheng_feng",
+      "type": "connected"
+    },
+    {
+      "source": "wen_xing_xian_di",
+      "target": "yao_di",
+      "type": "connected"
+    },
+    {
+      "source": "ti_zun_lao_zu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "gen_yuan_mo_qi",
+      "target": "ling",
+      "type": "connected"
+    },
+    {
+      "source": "gen_yuan_mo_qi",
+      "target": "qian_qian",
+      "type": "connected"
+    },
+    {
+      "source": "gen_yuan_mo_qi",
+      "target": "wan_dao_shi_mo",
+      "type": "connected"
+    },
+    {
+      "source": "gen_yuan_mo_qi",
+      "target": "yao_di",
+      "type": "connected"
+    },
+    {
+      "source": "wan_dao_shi_mo",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "lun_tian_mo_zu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "lun_tian_mo_zu",
+      "target": "wan_dao_shi_mo",
+      "type": "connected"
+    },
+    {
+      "source": "tian_mo_di_zun",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tian_mo_di_zun",
+      "target": "tai_shi_shen_di",
+      "type": "connected"
+    },
+    {
+      "source": "yao_di",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zhuo_gu_da_di",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zhuo_gu_da_di",
+      "target": "wan_dao_shi_mo",
+      "type": "connected"
+    },
+    {
+      "source": "zhuo_gu_da_di",
+      "target": "zhu_jiu_yin",
+      "type": "connected"
+    },
+    {
+      "source": "yu_xiao_da_di",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qing_tian_da_di",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qing_tian_da_di",
+      "target": "tai_shi_shen_di",
+      "type": "connected"
+    },
+    {
+      "source": "xu_kong_da_di",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zhu_jiu_yin",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "zhao_xing_di_zun",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tai_yan_di_zu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tai_yan_di_zu",
+      "target": "yao_di",
+      "type": "connected"
+    },
+    {
+      "source": "tai_yan_di_zu",
+      "target": "yuan_zu",
+      "type": "connected"
+    },
+    {
+      "source": "yuan_zu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "yuan_zu",
+      "target": "yao_di",
+      "type": "connected"
+    },
+    {
+      "source": "dong_huang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "dong_huang",
+      "target": "sha_huang",
+      "type": "connected"
+    },
+    {
+      "source": "dong_huang",
+      "target": "tai_shi_shen_di",
+      "type": "connected"
+    },
+    {
+      "source": "sha_huang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "yu_huang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "yu_huang",
+      "target": "tian_qi",
+      "type": "connected"
+    },
+    {
+      "source": "dao_shi_huang",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "dao_shi_huang",
+      "target": "sha_huang",
+      "type": "connected"
+    },
+    {
+      "source": "dao_shi_huang",
+      "target": "tian_qi",
+      "type": "connected"
+    },
+    {
+      "source": "tian_qi",
+      "target": "tai_shi_shen_di",
+      "type": "connected"
+    },
+    {
+      "source": "tai_shi_shen_di",
+      "target": "ni_xiao_zong",
+      "type": "family"
+    },
+    {
+      "source": "tai_yuan_shen_di",
+      "target": "tian_qi",
+      "type": "connected"
+    },
+    {
+      "source": "tai_yuan_shen_di",
+      "target": "tai_shi_shen_di",
+      "type": "connected"
+    },
+    {
+      "source": "shen_zhu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "shen_zhu",
+      "target": "wan_dao_shi_mo",
+      "type": "connected"
+    },
+    {
+      "source": "shen_zhu",
+      "target": "tai_shi_shen_di",
+      "type": "connected"
+    },
+    {
+      "source": "shen_pan_guan",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "mie_ling",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "xing_chen_tun_shi_zhe",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "shen_yuan_zhi_nv",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "chou_hen_zhi_gu",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "tun_tian_ju_ling",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qi_cai_qi_lin",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "qi_cai_qi_lin",
+      "target": "gu_qing_tian",
+      "type": "connected"
+    },
+    {
+      "source": "wu_zhuo_zhi_nie",
+      "target": "fang_yu",
+      "type": "connected"
+    },
+    {
+      "source": "wu_zhuo_zhi_nie",
+      "target": "lin_ba_tian",
+      "type": "connected"
+    },
+    {
+      "source": "wu_zhuo_zhi_nie",
+      "target": "shen_yuan_zhi_nv",
+      "type": "connected"
+    }
+  ]
+}

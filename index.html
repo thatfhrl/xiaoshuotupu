@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《斗破苍穹》人物关系图</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title-container">
+                <input type="text" id="graph-title" value="《斗破苍穹》人物关系图" class="editable-title">
+                <div class="title-tools">
+                    <label for="bg-image-upload" class="bg-image-btn" title="更换背景图片">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                    </label>
+                    <input type="file" id="bg-image-upload" accept="image/*" style="display:none;">
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div id="graph-container" class="graph-container"></div>
+            
+            <div class="sidebar">
+                <div id="search-container" class="search-container">
+                    <input type="text" id="search-input" placeholder="搜索角色内容">
+                </div>
+                
+                <div class="character-section">
+                    <h2>角色介绍</h2>
+                    <div id="character-info" class="character-info">
+                        <div class="character-profile">
+                            <img id="character-avatar" src="" alt="角色头像">
+                            <h3 id="character-name"></h3>
+                        </div>
+                        <div class="character-description">
+                            <h4>简介</h4>
+                            <p id="character-desc"></p>
+                        </div>
+                        <div class="character-video" id="character-video-container">
+                            <!-- 视频将动态加载 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="controls">
+                <button id="reset-btn">还原</button>
+                <div class="toggle-container">
+                    <span>全部关系</span>
+                    <label class="switch">
+                        <input type="checkbox" id="relation-toggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <button id="save-btn">保存</button>
+                <button id="share-btn">分享</button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="src/utils/forceSimulation.js"></script>
+    <script src="src/components/RelationshipGraph.js"></script>
+    <script src="src/components/CharacterInfo.js"></script>
+    <script src="src/components/SearchBar.js"></script>
+    <script src="src/App.js"></script>
+</body>
+</html> 

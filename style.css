@@ -1,0 +1,296 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    background-color: #041040;
+    color: #ffffff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+/* 高DPI显示支持 */
+img {
+    image-rendering: -webkit-optimize-contrast; /* 提高图像锐度 */
+    image-rendering: crisp-edges; /* 在支持的浏览器中使用更清晰的渲染方式 */
+}
+
+canvas {
+    image-rendering: high-quality; /* 使用高质量图像渲染 */
+}
+
+/* 顶部标题 */
+header {
+    padding: 15px 30px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+/* 可编辑标题 */
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.editable-title {
+    font-size: 36px;
+    font-weight: normal;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    width: auto;
+    min-width: 400px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.editable-title:hover, .editable-title:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.title-tools {
+    display: flex;
+    align-items: center;
+}
+
+.bg-image-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.bg-image-btn svg {
+    width: 22px;
+    height: 22px;
+}
+
+.bg-image-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* 主要内容区域 */
+main {
+    display: flex;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 图谱容器 */
+.graph-container {
+    flex: 1;
+    position: relative;
+    background-image: url('assets/images/stars-bg.png');
+    background-size: cover;
+    background-position: center;
+    cursor: grab;
+}
+
+.graph-container:active {
+    cursor: grabbing;
+}
+
+/* 侧边栏 */
+.sidebar {
+    width: 450px;
+    background-color: rgba(27, 38, 77, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+/* 搜索区域 */
+.search-container {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#search-input {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+    font-size: 18px;
+}
+
+#search-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* 角色信息区域 */
+.character-section {
+    padding: 25px;
+    flex: 1;
+}
+
+.character-section h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.character-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.character-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    /* 改善高DPI显示效果 */
+    backface-visibility: hidden; /* 避免某些浏览器的渲染问题 */
+    transform: translateZ(0); /* 启用GPU加速 */
+}
+
+.character-profile h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.character-description h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
+}
+
+.character-description p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.character-video {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.character-video video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* 底部控制区 */
+footer {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 40px;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* 切换开关 */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.toggle-container span {
+    margin-right: 15px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #4c8bf5;
+}
+
+input:checked + .slider:before {
+    transform: translateX(30px);
+} 
