@@ -1303,7 +1303,11 @@ class RelationshipGraph {
         console.warn(`无法加载角色 ${character.name} 的头像`);
       };
       // 使用角色数据中的avatar字段作为路径
-      img.src = character.avatar || `assets/images/${character.id}.png`;
+      const avatarSrc = character.avatar;
+      const avatarWebp = avatarSrc.replace(/assets\/images\/(.+?)\.png$/,
+"assets/images/webp/$1.webp");
+
+      img.src = avatarWebp;
     });
   }
 }

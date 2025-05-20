@@ -238,7 +238,7 @@ class CharacterCards {
       
       // 角色头像
       const avatar = document.createElement('img');
-      avatar.src = character.avatar || `assets/images/${character.id}.png`;
+      avatar.src = character.avatar || `assets/images/webp/${character.id}.webp`;
       avatar.alt = character.name;
       avatar.style.cssText = `
         width: 100%;
