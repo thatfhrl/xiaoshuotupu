@@ -7,10 +7,19 @@ class RelationshipGraph {
    * 构造函数
    * @param {HTMLElement} container - 图谱容器DOM元素
    * @param {Object} data - 角色和关系数据
+   * @param {Object} options - 配置选项
    */
-  constructor(container, data) {
+  constructor(container, data, options = {}) {
     this.container = container;
     this.data = data;
+    
+    // 配置选项
+    this.options = {
+      // 初始加载的最大角色数量
+      initialCharactersLimit: options.initialCharactersLimit || 15,
+      // 是否启用渐进式加载
+      progressiveLoading: options.progressiveLoading !== false
+    };
     
     // 初始化画布
     this.canvas = document.createElement('canvas');
@@ -69,8 +78,8 @@ class RelationshipGraph {
     // 角色头像缓存
     this.avatarCache = {};
     
-    // 加载头像
-    this.loadAvatars();
+    // 已加载的角色集合
+    this.loadedCharacters = new Set();
     
     // 创建全选按钮
     this.createSelectAllButton();
@@ -78,11 +87,19 @@ class RelationshipGraph {
     // 创建搜索框
     this.createSearchBox();
     
+    // 如果启用渐进式加载，创建加载更多按钮
+    if (this.options.progressiveLoading) {
+      this.createLoadMoreButton();
+    }
+    
     // 初始化
     this.initializeNodes();
     this.setupEventListeners();
     this.initializeSimulation();
     this.startAnimation();
+    
+    // 加载头像（只加载已初始化的节点）
+    this.loadAvatarsForNodes();
   }
   
   /**
@@ -225,10 +242,13 @@ class RelationshipGraph {
     const centerY = this.height / 2;
     const radius = Math.min(this.width, this.height) * 0.35;
     
+    // 确定要加载的初始角色
+    let initialCharacters = this.determineInitialCharacters();
+    
     // 创建节点数据，设置初始位置
-    this.data.characters.forEach((character, index) => {
+    initialCharacters.forEach((character, index) => {
       // 围绕中心点均匀分布
-      const angle = (index / this.data.characters.length) * Math.PI * 2;
+      const angle = (index / initialCharacters.length) * Math.PI * 2;
       const x = centerX + Math.cos(angle) * radius;
       const y = centerY + Math.sin(angle) * radius;
       
@@ -249,7 +269,54 @@ class RelationshipGraph {
         fixed: false, // 初始不固定，让力导向算法生效
         data: character
       });
+      
+      // 标记为已加载
+      this.loadedCharacters.add(character.id);
     });
+    
+    // 更新加载更多按钮状态
+    this.updateLoadMoreButtonVisibility();
+  }
+  
+  /**
+   * 确定初始加载的角色
+   * @returns {Array} 初始角色列表
+   */
+  determineInitialCharacters() {
+    // 如果禁用渐进式加载，返回所有角色
+    if (!this.options.progressiveLoading) {
+      return [...this.data.characters];
+    }
+    
+    const sortedCharacters = [...this.data.characters];
+    
+    // 找出主角（萧炎）
+    const protagonistIndex = sortedCharacters.findIndex(c => c.id === 'xiao_yan');
+    
+    // 如果找到主角，将其放在第一位
+    if (protagonistIndex >= 0) {
+      const protagonist = sortedCharacters.splice(protagonistIndex, 1)[0];
+      sortedCharacters.unshift(protagonist);
+    }
+    
+    // 计算每个角色的关系数量
+    const characterRelationCount = {};
+    this.data.characters.forEach(char => {
+      characterRelationCount[char.id] = 0;
+    });
+    
+    this.data.relationships.forEach(rel => {
+      characterRelationCount[rel.source] = (characterRelationCount[rel.source] || 0) + 1;
+      characterRelationCount[rel.target] = (characterRelationCount[rel.target] || 0) + 1;
+    });
+    
+    // 根据关系数量排序（与主角先不考虑）
+    sortedCharacters.slice(1).sort((a, b) => {
+      return characterRelationCount[b.id] - characterRelationCount[a.id];
+    });
+    
+    // 限制初始加载数量
+    return sortedCharacters.slice(0, this.options.initialCharactersLimit);
   }
   
   /**
@@ -406,8 +473,13 @@ class RelationshipGraph {
    * 初始化力导向模拟
    */
   initializeSimulation() {
-    // 从角色关系数据中提取连接
-    const links = this.data.relationships.map(rel => ({
+    // 从角色关系数据中提取连接（只考虑已加载的角色）
+    const links = this.data.relationships
+      .filter(rel => 
+        this.loadedCharacters.has(rel.source) && 
+        this.loadedCharacters.has(rel.target)
+      )
+      .map(rel => ({
       source: rel.source,
       target: rel.target,
       type: rel.type
@@ -535,13 +607,18 @@ class RelationshipGraph {
    * 绘制节点之间的连接线
    */
   drawLinks() {
-    const { ctx, nodes, data } = this;
+    const { ctx, nodes } = this;
     
     // 默认连线样式
     ctx.lineWidth = 1;
     
-    // 绘制所有关系连线
-    data.relationships.forEach(rel => {
+    // 只绘制已加载节点之间的关系
+    this.data.relationships.forEach(rel => {
+      // 确保两端节点都已加载
+      if (!this.loadedCharacters.has(rel.source) || !this.loadedCharacters.has(rel.target)) {
+        return;
+      }
+      
       const sourceNode = nodes.find(n => n.id === rel.source);
       const targetNode = nodes.find(n => n.id === rel.target);
       
@@ -1055,6 +1132,16 @@ class RelationshipGraph {
    * @param {string} nodeId - 要选中的节点ID
    */
   selectNodeById(nodeId) {
+    // 如果节点未加载，先尝试加载
+    if (!this.loadedCharacters.has(nodeId)) {
+      const character = this.data.characters.find(c => c.id === nodeId);
+      if (character) {
+        this.showMessage(`正在加载角色: ${character.name}`);
+        this.addCharacterNode(character);
+        this.loadAvatarsForNodes();
+      }
+    }
+    
     const node = this.nodes.find(n => n.id === nodeId);
     if (node) {
       this.selectNode(node);
@@ -1290,24 +1377,345 @@ class RelationshipGraph {
   }
   
   /**
-   * 加载角色头像
+   * 创建加载更多按钮
    */
-  loadAvatars() {
-    // 为每个角色加载头像
-    this.data.characters.forEach(character => {
+  createLoadMoreButton() {
+    // 创建按钮容器
+    const buttonContainer = document.createElement('div');
+    buttonContainer.className = 'load-more-container';
+    buttonContainer.style.cssText = `
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 8px 12px;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    `;
+    
+    // 创建数量输入框标签
+    const inputLabel = document.createElement('span');
+    inputLabel.textContent = '加载数量:';
+    inputLabel.style.cssText = `
+      color: white;
+      margin-right: 8px;
+      font-size: 14px;
+    `;
+    
+    // 创建数量输入框
+    this.loadCountInput = document.createElement('input');
+    this.loadCountInput.type = 'number';
+    this.loadCountInput.min = '1';
+    this.loadCountInput.max = '50';
+    this.loadCountInput.value = '10';
+    this.loadCountInput.style.cssText = `
+      width: 50px;
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      padding: 5px;
+      border-radius: 4px;
+      margin-right: 10px;
+      font-size: 14px;
+      text-align: center;
+    `;
+    
+    // 输入框聚焦效果
+    this.loadCountInput.addEventListener('focus', () => {
+      this.loadCountInput.style.backgroundColor = 'rgba(255, 255, 255, 0.3)';
+      this.loadCountInput.style.boxShadow = '0 0 0 2px rgba(76, 139, 245, 0.5)';
+    });
+    
+    this.loadCountInput.addEventListener('blur', () => {
+      this.loadCountInput.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+      this.loadCountInput.style.boxShadow = 'none';
+      
+      // 确保输入值在有效范围内
+      let value = parseInt(this.loadCountInput.value, 10);
+      if (isNaN(value) || value < 1) {
+        this.loadCountInput.value = '1';
+      } else if (value > 50) {
+        this.loadCountInput.value = '50';
+      }
+    });
+    
+    // 创建加载更多按钮
+    this.loadMoreButton = document.createElement('button');
+    this.loadMoreButton.className = 'load-more-button';
+    this.loadMoreButton.textContent = '加载更多角色';
+    this.loadMoreButton.style.cssText = `
+      background-color: rgba(76, 139, 245, 0.7);
+      border: none;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s;
+    `;
+    
+    // 按钮悬浮效果
+    this.loadMoreButton.addEventListener('mouseover', () => {
+      this.loadMoreButton.style.backgroundColor = 'rgba(76, 139, 245, 0.9)';
+    });
+    
+    this.loadMoreButton.addEventListener('mouseout', () => {
+      this.loadMoreButton.style.backgroundColor = 'rgba(76, 139, 245, 0.7)';
+    });
+    
+    // 加载更多按钮点击事件
+    this.loadMoreButton.addEventListener('click', () => {
+      this.loadMoreCharacters();
+    });
+    
+    // 回车键触发加载
+    this.loadCountInput.addEventListener('keyup', (e) => {
+      if (e.key === 'Enter') {
+        this.loadMoreCharacters();
+      }
+    });
+    
+    // 添加元素到容器
+    buttonContainer.appendChild(inputLabel);
+    buttonContainer.appendChild(this.loadCountInput);
+    buttonContainer.appendChild(this.loadMoreButton);
+    this.container.appendChild(buttonContainer);
+    
+    // 如果角色已全部加载，隐藏按钮
+    this.updateLoadMoreButtonVisibility();
+  }
+  
+  /**
+   * 更新加载更多按钮的可见性
+   */
+  updateLoadMoreButtonVisibility() {
+    if (!this.loadMoreButton) return;
+    
+    // 如果所有角色都已加载，隐藏按钮
+    if (this.loadedCharacters.size >= this.data.characters.length) {
+      this.loadMoreButton.style.display = 'none';
+    } else {
+      this.loadMoreButton.style.display = 'block';
+    }
+  }
+  
+  /**
+   * 加载更多角色
+   */
+  loadMoreCharacters() {
+    // 获取用户指定的加载数量
+    let batchSize = parseInt(this.loadCountInput.value, 10);
+    
+    // 验证输入
+    if (isNaN(batchSize) || batchSize < 1) {
+      batchSize = 1;
+      this.loadCountInput.value = '1';
+    } else if (batchSize > 50) {
+      batchSize = 50;
+      this.loadCountInput.value = '50';
+    }
+    
+    // 防止重复点击
+    this.loadMoreButton.disabled = true;
+    this.loadMoreButton.style.opacity = '0.7';
+    this.loadMoreButton.textContent = '加载中...';
+    this.loadCountInput.disabled = true;
+    
+    let loadCount = 0;
+    
+    // 找出未加载的角色
+    const unloadedCharacters = this.data.characters.filter(
+      char => !this.loadedCharacters.has(char.id)
+    );
+    
+    // 没有更多角色可加载
+    if (unloadedCharacters.length === 0) {
+      this.showMessage('已加载所有角色');
+      this.updateLoadMoreButtonVisibility();
+      
+      // 恢复按钮状态
+      this.loadMoreButton.disabled = false;
+      this.loadMoreButton.style.opacity = '1';
+      this.loadMoreButton.textContent = '加载更多角色';
+      this.loadCountInput.disabled = false;
+      
+      return;
+    }
+    
+    // 限制加载数量
+    const charactersToLoad = unloadedCharacters.slice(0, batchSize);
+    
+    // 显示加载消息
+    this.showMessage(`正在加载 ${charactersToLoad.length} 个新角色...`);
+    
+    try {
+      // 为每个新角色创建节点
+      charactersToLoad.forEach(character => {
+        this.addCharacterNode(character);
+        loadCount++;
+      });
+      
+      // 加载头像
+      this.loadAvatarsForNodes();
+      
+      // 重新计算布局
+      this.fixAllNodes();
+      
+      // 显示完成消息
+      this.showMessage(`已加载 ${loadCount} 个新角色`);
+      
+      // 提示用户剩余角色数量
+      const remainingCount = unloadedCharacters.length - loadCount;
+      if (remainingCount > 0) {
+        // 更新输入框默认值为剩余数量（如果剩余数量小于当前值）
+        if (remainingCount < batchSize) {
+          this.loadCountInput.value = remainingCount.toString();
+        }
+      }
+    } catch (error) {
+      console.error("加载角色时出错:", error);
+      this.showMessage("加载角色时发生错误");
+    } finally {
+      // 确保无论如何都恢复按钮状态
+      this.loadMoreButton.disabled = false;
+      this.loadMoreButton.style.opacity = '1';
+      this.loadMoreButton.textContent = '加载更多角色';
+      this.loadCountInput.disabled = false;
+      
+      // 更新按钮可见性
+      this.updateLoadMoreButtonVisibility();
+    }
+  }
+  
+  /**
+   * 添加角色节点
+   * @param {Object} character - 角色数据
+   */
+  addCharacterNode(character) {
+    // 如果已经加载过，跳过
+    if (this.loadedCharacters.has(character.id)) {
+      return;
+    }
+    
+    // 确定节点半径 - 主角萧炎使用更大的半径
+    const isProtagonist = character.id === 'xiao_yan';
+    const nodeRadius = isProtagonist ? 40 : 30;
+    
+    // 找出与该角色有关系的已加载角色
+    const relatedNodes = [];
+    this.data.relationships.forEach(rel => {
+      if (rel.source === character.id && this.loadedCharacters.has(rel.target)) {
+        const targetNode = this.nodes.find(n => n.id === rel.target);
+        if (targetNode) relatedNodes.push(targetNode);
+      } else if (rel.target === character.id && this.loadedCharacters.has(rel.source)) {
+        const sourceNode = this.nodes.find(n => n.id === rel.source);
+        if (sourceNode) relatedNodes.push(sourceNode);
+      }
+    });
+    
+    let x, y;
+    
+    // 如果有相关节点，将新节点放在附近
+    if (relatedNodes.length > 0) {
+      // 计算相关节点的平均位置
+      const avgX = relatedNodes.reduce((sum, node) => sum + node.x, 0) / relatedNodes.length;
+      const avgY = relatedNodes.reduce((sum, node) => sum + node.y, 0) / relatedNodes.length;
+      
+      // 添加一些随机偏移，避免重叠
+      const angle = Math.random() * Math.PI * 2;
+      const distance = 100 + Math.random() * 50;
+      x = avgX + Math.cos(angle) * distance;
+      y = avgY + Math.sin(angle) * distance;
+    } else {
+      // 没有相关节点时，在画布边缘随机位置添加
+      const angle = Math.random() * Math.PI * 2;
+      const radius = Math.min(this.width, this.height) * 0.4;
+      x = this.width / 2 + Math.cos(angle) * radius;
+      y = this.height / 2 + Math.sin(angle) * radius;
+    }
+    
+    // 创建新节点
+    const newNode = {
+      id: character.id,
+      name: character.name,
+      x: x,
+      y: y,
+      vx: 0,
+      vy: 0,
+      radius: nodeRadius,
+      isProtagonist: isProtagonist,
+      fixed: false,
+      data: character
+    };
+    
+    // 添加到节点列表
+    this.nodes.push(newNode);
+    
+    // 确保节点不会移出画布
+    this.keepNodeInBounds(newNode);
+    
+    // 标记为已加载
+    this.loadedCharacters.add(character.id);
+    
+    // 更新模拟器 - 重新初始化而不是直接更新节点
+    if (this.simulation) {
+      // 从关系数据中提取连接（只考虑已加载的角色）
+      const links = this.data.relationships
+        .filter(rel => 
+          this.loadedCharacters.has(rel.source) && 
+          this.loadedCharacters.has(rel.target)
+        )
+        .map(rel => ({
+          source: rel.source,
+          target: rel.target,
+          type: rel.type
+        }));
+      
+      // 重新创建力导向布局实例
+      this.simulation = new ForceSimulation(this.nodes, links, {
+        linkStrength: 0.05,
+        repulsionStrength: 800,
+        centerStrength: 0.0001,
+        friction: 0.95,
+        minDistance: 70,
+        linkDistance: 150
+      });
+      
+      // 设置画布尺寸并启动
+      this.simulation.setSize(this.width, this.height).start();
+    }
+    
+    return newNode;
+  }
+  
+  /**
+   * 为当前已加载的节点加载头像
+   */
+  loadAvatarsForNodes() {
+    this.nodes.forEach(node => {
+      // 如果头像已经加载，跳过
+      if (this.avatarCache[node.id]) return;
+      
+      // 获取角色数据
+      const character = this.data.characters.find(c => c.id === node.id);
+      if (!character) return;
+      
+      // 加载头像
       const img = new Image();
       img.onload = () => {
-        this.avatarCache[character.id] = img;
+        this.avatarCache[node.id] = img;
       };
       img.onerror = () => {
         console.warn(`无法加载角色 ${character.name} 的头像`);
       };
+      
       // 使用角色数据中的avatar字段作为路径
       const avatarSrc = character.avatar;
-      const avatarWebp = avatarSrc.replace(/assets\/images\/(.+?)\.png$/,
-"assets/images/webp/$1.webp");
-
-      img.src = avatarWebp;
+      img.src = avatarSrc;
     });
   }
 }
